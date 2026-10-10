@@ -1,0 +1,56 @@
+[
+  {
+    "id": "should-1",
+    "type": "should_trigger",
+    "prompt": "正财和偏财在书上凭什么分开？一个说是「我之妻」，一个说是「衆人之財」，怎么讲？",
+    "expected": "激活 bazi-sanming-cai：用 R1 讲正财阴阳相配、以妻相比；用 R6 讲偏财同阴阳、非妻所带而称众人之财；给出处（卷五·論正財／論偏財）。"
+  },
+  {
+    "id": "should-2",
+    "type": "should_trigger",
+    "prompt": "我财多身弱，书上说「財多身弱反為富屋貧人」，那财到底是多是少才好？",
+    "expected": "激活 bazi-sanming-cai：用 R5、R2 说明关键不在财多财少而在身能不能任，财不可无也不要太多；不给财务结论。"
+  },
+  {
+    "id": "should-3",
+    "type": "should_trigger",
+    "prompt": "「財宜藏，藏則豐厚，露則浮蕩」，可又说见比劫要透出来，这不矛盾吗？",
+    "expected": "激活 bazi-sanming-cai：用 R3 说明藏怕浮荡、透怕暗夺，随有无比劫而定。"
+  },
+  {
+    "id": "should-4",
+    "type": "should_trigger",
+    "prompt": "偏正财合论里说的「生成財」是什么意思？",
+    "expected": "激活 bazi-sanming-cai：用 R9 讲生成财是财位坐生旺库的组合取法（精紀语），并说明这是合论里的取法，不是另立一格。"
+  },
+  {
+    "id": "should-5",
+    "type": "should_trigger",
+    "prompt": "我的四柱是甲申 癸酉 壬辰 乙巳，财在哪、身能不能任财？",
+    "expected": "激活 bazi-sanming-cai 并走**落盘读法**：①取盘上的料（日主壬、月令酉、四柱里财星在哪一柱、透还是藏、有无比劫与印）②逐条核 R1／R6（正偏）→ R3（藏露）→ R5、R2（身能否任）→ R10（得时）③给一句「按书里这一类读，偏 X」＋出处（卷五·論正財等）④收口声明不应期、不断终身、不给财务结论。"
+  },
+  {
+    "id": "should-not-1",
+    "type": "should_not_trigger",
+    "prompt": "书上说财能生煞、财为七煞之根，那我这煞重该不该用财？",
+    "expected": "不激活 bazi-sanming-cai（财生煞、财为煞根属官煞去留，转 bazi-sanming-guan-sha）。"
+  },
+  {
+    "id": "should-not-2",
+    "type": "should_not_trigger",
+    "prompt": "帮我算算这八字什么时候能发财、明年财运如何？",
+    "expected": "不激活：批流年大运、断终身本族不接；先走 bazi-hub 硬闸门，缺柱不排。"
+  },
+  {
+    "id": "edge-1",
+    "type": "boundary",
+    "prompt": "我只记得生日不记得时辰，财藏在支里还能不能算？",
+    "expected": "边界：财格要月令与四柱齐全，缺时柱不能定藏露与分夺，照实说要补什么，标明「段内不唯一」，不用占位信息硬排。"
+  },
+  {
+    "id": "edge-2",
+    "type": "boundary",
+    "prompt": "书上说我这种正财格人格「慳吝」，是不是我这人就小气？",
+    "expected": "边界：说明「正財之格主人誠實行事儉約……惟有慳吝」是《三命通會》论正财篇里的评价语，属书里的说法，不落到具体人身上。"
+  }
+]

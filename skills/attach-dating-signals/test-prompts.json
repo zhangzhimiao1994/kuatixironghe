@@ -1,0 +1,7 @@
+[
+  {"id": 1, "type": "应该触发", "prompt": "我想知道他值不值得我继续投入，有什么办法早点看出来他到底在不在乎我的感受？", "expected": "触发 attach-dating-signals：对照「Disregards your emotional well-being」等 Smoking Guns，并设计一次可观察的试探（有效沟通说出一句真实需要，观察实时回应）。"},
+  {"id": 2, "type": "应该触发", "prompt": "他嘴上说要找对的人，却总暗示那个人不是我，还说我太敏感。这些算红灯吗？", "expected": "触发 attach-dating-signals：对照 smoking guns（longs for an ideal relationship-but…／suggests you are too needy、sensitive），并说明红灯是一种'情绪立场'而非单句，再看整体模式（Golden Rule 3）。"},
+  {"id": 3, "type": "不应触发", "prompt": "他一冷淡我就心慌、一热情我就狂喜，我是不是把焦虑当成了爱？", "expected": "不触发 attach-dating-signals（这是焦虑型本人的自我调节）：路由到 attach-anxious-style，命名被激活的依恋系统并区分「警报」和「安心」。"},
+  {"id": 4, "type": "不应触发", "prompt": "我们结婚八年了，最近总为要不要分床睡吵架，怎么谈都谈不拢。", "expected": "不触发 attach-dating-signals（这是长期关系里的亲密度协商）：路由到 attach-anxious-avoidant-trap，把分床争吵还原成'我们要多近'。"},
+  {"id": 5, "type": "边界", "prompt": "他上礼拜取消了一次约会，我觉得他肯定是回避型、注定要渣我。", "expected": "守住边界：一次'症状'不足以定论（Golden Rule 3），提醒别把对方加工成标签；先看整体模式、再用试探拿信息。若用户坚持用此 skill 去'定罪'，先停下。"}
+]

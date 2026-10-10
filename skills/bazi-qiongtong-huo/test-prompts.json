@@ -1,0 +1,50 @@
+[
+  {
+    "id": "should-1",
+    "type": "should-trigger",
+    "prompt": "「三春丙火，耑用壬水为扶阳，名曰天和地润」，为什么丙火要先用壬水？",
+    "expected": "激活 bazi-qiongtong-huo：回 R7（论丙火·三春丙火），给原书依据＋取用条件两句。"
+  },
+  {
+    "id": "should-2",
+    "type": "should-trigger",
+    "prompt": "丁火为什么用甲木，甲和庚是什么关系？",
+    "expected": "激活 bazi-qiongtong-huo：回 R14、R17、R18（甲引丁、庚噼甲、甲乃庚之良友）。"
+  },
+  {
+    "id": "should-3",
+    "type": "should-trigger",
+    "prompt": "「火以木为体，火以水为用」是什么意思？",
+    "expected": "激活 bazi-qiongtong-huo：回 R1（论火）。"
+  },
+  {
+    "id": "should-not-1",
+    "type": "should-not-trigger",
+    "prompt": "乙木生在二月该取什么？",
+    "expected": "不激活本 skill；转 bazi-qiongtong-mu（论乙木·二月乙木）。"
+  },
+  {
+    "id": "should-not-2",
+    "type": "should-not-trigger",
+    "prompt": "「过与不及，皆为乖道」这句怎么读？",
+    "expected": "不激活本 skill；转 bazi-qiongtong-wu-xing（五行总论）。"
+  },
+  {
+    "id": "should-not-3",
+    "type": "should-not-trigger",
+    "prompt": "帮这位丙火日主批一下大运走势。",
+    "expected": "不激活本 skill；本族不批大运、不断终身。"
+  },
+  {
+    "id": "boundary-1",
+    "type": "boundary",
+    "prompt": "书里说「丙丁全无，僧道之命」，是不是说没丙丁就得去当和尚？",
+    "expected": "边界：这是书里的评价语，只标明是书里的说法，不当作对某人的事实判决。"
+  },
+  {
+    "id": "boundary-2",
+    "type": "boundary",
+    "prompt": "丙火无壬能不能用癸？",
+    "expected": "边界：原书确有「无壬用癸者，略富贵」一类话（见正月丙火一节），照原书引并标明是书里的说法；不引申成定论。"
+  }
+]

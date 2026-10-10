@@ -1,0 +1,38 @@
+[
+  {
+    "id": "should-1",
+    "type": "should-trigger",
+    "prompt": "我总觉得这个决定哪里不对劲，但又说不出为什么。",
+    "expected": "激活：先过「激活前自检」→ 速查八大陷阱只标注命中项 → 命中 ≥2 个时逐个深挖「检测问题 + 对策」→ 走「扫描完成确认」再决定给结论还是转框架。"
+  },
+  {
+    "id": "should-2",
+    "type": "should-trigger",
+    "prompt": "这个项目我已经投进去两百万了，实在不想放弃。",
+    "expected": "激活：识别为沉没成本陷阱；检测问题「如果今天从零开始，我会怎么选」，对策——只看未来收益和未来成本，不被已沉没的成本绑架。"
+  },
+  {
+    "id": "should-not-1",
+    "type": "should-not-trigger",
+    "prompt": "地球到月球有多远？",
+    "expected": "不激活：纯事实查询，不需要决策。"
+  },
+  {
+    "id": "should-not-2",
+    "type": "should-not-trigger",
+    "prompt": "帮我决定今晚吃什么，我一点都不纠结。",
+    "expected": "不激活：不需要做决策、用户也没有表达怀疑或不确定，且逐条排查本身就是过度分析陷阱。"
+  },
+  {
+    "id": "boundary-1",
+    "type": "boundary",
+    "prompt": "我就想让你在这两个方案里帮我挑一个，不用分析我心理。",
+    "expected": "边界→激活前自检：用户未表达怀疑/不确定，🛑 STOP，告知「陷阱扫描适合正在做决策且有不确定感时使用」，改用 `proact-framework` 先理清决策本身。"
+  },
+  {
+    "id": "boundary-2",
+    "type": "boundary",
+    "prompt": "这些陷阱我一个都没中。",
+    "expected": "边界→if-then 失败回退：追问「如果必须挑一个最可能中招的，是哪个？」；仍无效则切换到 `problem-definition`——也许决策问题本身需要重新定义；同时警惕这是否认型确认偏差。"
+  }
+]

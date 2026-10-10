@@ -1,0 +1,68 @@
+[
+  {
+    "id": "should-1",
+    "type": "should_trigger",
+    "prompt": "《子平真詮》「论正官」里说「官以克身……何以切忌刑冲破害，尊之若是乎」，正官既然克我，为什么反倒要尊它、护它？",
+    "expected": "激活 bazi-ziping-zheng-guan-cai：用 R1、R2 说明正官「分所当尊」的义理，再用 R3 讲「忌刑冲破害、喜生之护之」；给出处（三十一·论正官），标明是书里的说法。"
+  },
+  {
+    "id": "should-2",
+    "type": "should_trigger",
+    "prompt": "「以财印并透者论之，两不相碍，其贵也大」这句怎么读？财和印为什么能并透，不相碍指什么？",
+    "expected": "激活 bazi-ziping-zheng-guan-cai：用 R4 讲并透为贵的判据是「两不相碍」，再拉 R5 讲不能两用时「单用印不若单用财」的取舍；给出处（三十一·论正官）。"
+  },
+  {
+    "id": "should-3",
+    "type": "should_trigger",
+    "prompt": "书上论财里，前面说「财喜根深，不宜太露」，后面又说「露亦不忌」，这不是自相矛盾吗？",
+    "expected": "激活 bazi-ziping-zheng-guan-cai：用 R9 讲怕的是「太露」、不怕「透一位以清用」，用 R10 讲「财旺生官，露亦不忌」，说明两句各带条件、不打架；给出处（三十三·论财）。"
+  },
+  {
+    "id": "should-4",
+    "type": "should_trigger",
+    "prompt": "帮我看看我这盘正官一路：年甲申 月壬申 日乙巳 时戊寅，正官这块按书里该怎么读？",
+    "expected": "激活 bazi-ziping-zheng-guan-cai：走落盘读法四步——①输入四柱 ②按 R3、R4、R5、R6 逐条核正官的忌喜、财印是否并透、有无遇伤混煞 ③输出一句「按书里这一类读，偏 X」＋出处 ④收口（不应期、不断终身、不落寿夭疾病生育、不替人决定）。"
+  },
+  {
+    "id": "should-not-1",
+    "type": "should_not_trigger",
+    "prompt": "我这盘官煞混杂，到底该去官留煞还是去煞留官？",
+    "expected": "不激活 bazi-ziping-zheng-guan-cai：官煞去留是《三命通會》那一路的名目，转 bazi-sanming-guan-sha；本书这一路只讲「混煞贵乎取清」，不与它调和。"
+  },
+  {
+    "id": "should-not-2",
+    "type": "should_not_trigger",
+    "prompt": "帮我排个八字，看看我今年的财运和事业能翻身吗？",
+    "expected": "不激活：批流年大运、断终身本族不接；先过 bazi-hub 硬闸门，缺柱不排。"
+  },
+  {
+    "id": "should-not-3",
+    "type": "should_not_trigger",
+    "prompt": "《子平真詮》里用神是月令还是别的取法？格局成败怎么讲？",
+    "expected": "不激活 bazi-ziping-zheng-guan-cai：问的是用神总纲与格局成败，转 bazi-ziping-yong-shen-zong-gang。"
+  },
+  {
+    "id": "should-not-4",
+    "type": "should_not_trigger",
+    "prompt": "最近运气不好，感情也不顺，是不是我命不好？",
+    "expected": "不激活：全是泛化词，未显式提八字／四柱／用神等词，硬闸门不过，整行不显示。"
+  },
+  {
+    "id": "edge-1",
+    "type": "boundary",
+    "prompt": "财「太露」到底几位算露？你就说个数，我这盘透了两位财。",
+    "expected": "边界：R9 只给「透一位以清用不算露、太多则露」的口径，没有具体数字。不给死数；按原句讲这一层，并说明还要看财是否生官、月令可不可取，不替用户拍板。"
+  },
+  {
+    "id": "edge-2",
+    "type": "boundary",
+    "prompt": "我看到三命通會里说官煞兩停喜者存之憎者去之，子平真詮却讲混煞取清，到底听谁的？",
+    "expected": "边界：两说都展示、各标出处（《三命通會》卷五·官煞去㽞並官鬼互變雜論；《子平真詮》三十一·论正官 R6），说明是两家取法不同，不选边、不合成一句。"
+  },
+  {
+    "id": "edge-3",
+    "type": "boundary",
+    "prompt": "只给了年月日，没给出生时辰，这盘的正官财能帮我读一下吗？",
+    "expected": "边界：照实说缺时柱，正官／财要核的透藏与并透给不全，说明需补到哪个时辰才可排；不用占位信息硬排，出生时刻只到时段时标明时段内不唯一。"
+  }
+]

@@ -1,0 +1,26 @@
+{
+ "B01": {
+  "skill": "zhouyi",
+  "src": "retest/zhouyi__1.md"
+ },
+ "B02": {
+  "skill": "kanyu-xieji-bian-e",
+  "src": "retest/kanyu-xieji-bian-e__1.md"
+ },
+ "B03": {
+  "skill": "zhouyi",
+  "src": "retest/zhouyi__2.md"
+ },
+ "B04": {
+  "skill": "kanyu-yilong-xia",
+  "src": "retest/kanyu-yilong-xia__2.md"
+ },
+ "B05": {
+  "skill": "kanyu-xieji-bian-e",
+  "src": "retest/kanyu-xieji-bian-e__2.md"
+ },
+ "B06": {
+  "skill": "kanyu-yilong-xia",
+  "src": "retest/kanyu-yilong-xia__1.md"
+ }
+}

@@ -1,0 +1,8 @@
+[
+  {"id": 1, "type": "应该触发", "prompt": "朋友和家人愿意投我钱，我到底该不该拿？", "expected": "激活 founder-investor-dilemmas：提示朋友家人是'最容易但也最危险'的钱（玩火、关系风险），给防火墙思路；不替用户决定拿不拿。"},
+  {"id": 2, "type": "应该触发", "prompt": "VC 说的清算优先权、董事会席位、supermajority 到底什么意思？", "expected": "激活：按'经济权利/控制权利'两类解释条款含义与代价，提示小额退出场景；正式条款请律师与税师。"},
+  {"id": 3, "type": "不应触发", "prompt": "创始人之间的股权怎么分？", "expected": "路由到 founder-equity-splits。"},
+  {"id": 4, "type": "不应触发", "prompt": "我到底该选'把公司做大'还是'死守控制权'这条路？", "expected": "路由到 founder-wealth-vs-control。"},
+  {"id": 5, "type": "边界", "prompt": "别绕了，你就说这份 term sheet 我该不该签。", "expected": "守边界：本 skill 不构成投资/法律建议，只解释条款含义与代价；请律师与税师审阅、由本人决定。"},
+  {"id": 6, "type": "边界", "prompt": "我们现金只够两周了，正好有 VC 在谈。", "expected": "守边界：指出这是最弱的谈判时点，给补救路径（过桥/缩小轮次/其它来源），但不承诺结果。"}
+]

@@ -1,0 +1,16 @@
+{
+  "should_trigger": [
+    {"prompt": "『势来形止』是什么意思？『千尺为势，百尺为形』真的要拿尺子量吗？", "reason": "用户问本主题核心两句与尺度问题。"},
+    {"prompt": "『葬者原其起，乘其止』怎么落到看地上？", "reason": "用户问做法总纲。"},
+    {"prompt": "『全气之地』是什么？为什么『当葬其止』？", "reason": "用户问全气与止处。"}
+  ],
+  "should_not_trigger": [
+    {"prompt": "风水这个词到底什么意思？", "reason": "归 kanyu-zangshu-cang-feng-de-shui（藏风得水），不归本 skill。"},
+    {"prompt": "我这块地像书里哪一类、出什么贵？", "reason": "归 kanyu-zangshu-xing-shi-pin-lei（形势品类），不归本 skill。"},
+    {"prompt": "平洋和山垄怎么分？", "reason": "归 kanyu-zangshu-zhi-long-bian（支垄之辨），不归本 skill。"}
+  ],
+  "boundary_cases": [
+    {"prompt": "既然是全气之地，那是不是就能葬、一定发达？", "reason": "守边界：全气之地也要『当葬其止』；书上形容语『贵若千乘、富如万金』不是承诺。"},
+    {"prompt": "势看着不错，但我看不出它止在哪儿，你帮我指一个点。", "reason": "缺项照实说看不出，并列出要补的信息；不硬指一个点。"}
+  ]
+}

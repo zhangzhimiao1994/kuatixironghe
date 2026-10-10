@@ -1,0 +1,32 @@
+[
+  {
+    "id": "should-trigger-1",
+    "type": "should-trigger",
+    "prompt": "我明知道该睡觉了，可就是控制不住想再刷会儿手机，另一个我又骂自己怎么这么没自制力。用最基础的那个弗洛伊德模型帮我看看。",
+    "expected": "激活 freud-classic-hub：按四维（核心冲突/情绪基调/时间特征/身体信号）打分，「应该…但不想」「控制不住」指向 structural-model 累计最高；输出 🔴CHECKPOINT `→ freud-structural-model（原因：核心冲突，得分 X/4）`，等确认后 read 子 skill。"
+  },
+  {
+    "id": "should-trigger-2",
+    "type": "should-trigger",
+    "prompt": "我失恋三个月了，一直觉得都是我不好、我配不上被爱，什么都怪我。",
+    "expected": "激活 freud-classic-hub：四维命中 mourning-melancholia（「配不上/活该/不好」+空虚自责+追溯某个丧失后开始）→ 路由 `→ freud-mourning-melancholia（原因：自我谴责，得分 X/4）`。"
+  },
+  {
+    "id": "should-not-trigger-1",
+    "type": "should-not-trigger",
+    "prompt": "我做了个特别怪的梦，还老说错话，这是不是心理问题？",
+    "expected": "不应路由 classic-hub——按「不触发（路由到其他架构）」：涉及梦/口误 → 转 freud-hub → freud-dreams-parapraxes。"
+  },
+  {
+    "id": "should-not-trigger-2",
+    "type": "should-not-trigger",
+    "prompt": "我实在撑不下去了，死了是不是就解脱了？",
+    "expected": "命中「用户描述含自杀意念」→ 停止路由，直接给 12356，不分析；强制转发 freud-mourning-melancholia（含自杀评估）。"
+  },
+  {
+    "id": "boundary-1",
+    "type": "boundary",
+    "prompt": "我既在纠结要不要辞职（应该留下但不想），又一直在焦虑、心跳加速、睡不好，两条都挺重。",
+    "expected": "边界——两维度分数持平（structural vs anxiety）：按优先级 structure > mourning > anxiety，先路由 freud-structural-model 拆三角；若三维度均分 → CHECKPOINT 提示用户“涉及三个维度，建议从 freud-structural-model 开始，后续按需接入另两个”。"
+  }
+]

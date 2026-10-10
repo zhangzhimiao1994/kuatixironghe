@@ -1,0 +1,7 @@
+[
+  {"id": 1, "type": "应该触发", "prompt": "我们在一起三年了，老为周末到底该陪他还是各自待着吵架，每次谈完都更糟，问题永远解决不了。", "expected": "触发 attach-anxious-avoidant-trap：把'周末怎么过'的争吵翻译成'我们要多近'的亲密度协商，对照六个陷阱征兆，判断关系阶段，并设计一个迷你关系实验。"},
+  {"id": 2, "type": "应该触发", "prompt": "他一想靠近我就想逃，我一想拉开他就更黏过来，我们像在打一场没完的拉锯战。", "expected": "触发 attach-anxious-avoidant-trap：解释'激活-去激活'循环（the closer the anxious tries to get, the more distant the avoidant acts），对照征兆并给出往安全区挪的实验方向。"},
+  {"id": 3, "type": "不应触发", "prompt": "我们才刚约会两次，我还不确定要不要在一起，他有点冷淡。", "expected": "不触发本 skill（这是约会初期信号判读，不是长期亲密度陷阱）：路由到 attach-dating-signals。"},
+  {"id": 4, "type": "不应触发", "prompt": "帮我直接拟一句跟他说的话就行，不用分析我们为什么会吵。", "expected": "不触发 attach-anxious-avoidant-trap（只要话术）：路由到 attach-secure-communication。"},
+  {"id": 5, "type": "边界", "prompt": "他总在朋友面前贬低我、吼我，我们是不是做做你说的那个'关系实验'就能修好？", "expected": "守住边界：先停下关系实验，识别'最亲近的敌人'中的贬低/羞辱信号；若涉及暴力、恐吓或控制，立即走安全出口（先保人身安全+求助渠道），不做实验、不诊断。"}
+]

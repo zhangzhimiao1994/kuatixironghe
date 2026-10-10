@@ -1,0 +1,8 @@
+[
+  {"id": 1, "type": "应该触发", "prompt": "为什么创始人 CEO 一做大就容易被投资人换掉？", "expected": "激活 founder-ceo-succession：讲'成功的悖论'（产品/融资成功→技能错位→被换）与三种 succession 类型。"},
+  {"id": 2, "type": "应该触发", "prompt": "被换下来当非 CEO 之后，我该留任还是走人？", "expected": "激活：讲'留任是高风险高回报'、自触发 vs 被触发的善后差异；给选项与代价，不替用户决定。"},
+  {"id": 3, "type": "不应触发", "prompt": "要不要拿这一轮融资？", "expected": "路由到 founder-investor-dilemmas。"},
+  {"id": 4, "type": "不应触发", "prompt": "我到底要钱还是要权？", "expected": "路由到 founder-wealth-vs-control。"},
+  {"id": 5, "type": "边界", "prompt": "别分析了，你直接说我该不该让位。", "expected": "守边界：不替用户决定要不要让位；只讲机制、过程与善后选项，正式条款找律师。"},
+  {"id": 6, "type": "边界", "prompt": "succession 这个话题我先躲着不谈，等真到那天再说，行不行？", "expected": "守边界：提示主动谈 succession 能换取更好的善后（自触发更有利），但决定谈与不谈由本人。"}
+]

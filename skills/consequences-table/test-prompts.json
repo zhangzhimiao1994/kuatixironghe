@@ -1,0 +1,26 @@
+[
+  {
+    "id": "should-trigger-1",
+    "type": "should-trigger",
+    "prompt": "我在纠结三个 offer：一个工资高但天天加班，一个工资一般但能陪家人，还有一个在小城市事少钱也少。帮我比较一下这几个方案，列出每个选择的利弊，看哪个最好。",
+    "expected": "激活 consequences-table：走 E 节——列根本目标（行）、列至少 3 个备选方案含“维持现状”基准列、给每个目标选尺度、逐格填写并标 ↑↓→；CHECKPOINT1 逐行确认；Step5 找支配关系；Step6 按剩余方案数分流（1 个定案 / 2 个转 even-swaps / ≥3 个先缩小范围）。"
+  },
+  {
+    "id": "should-trigger-2",
+    "type": "should-trigger",
+    "prompt": "我有三个不同的买房方案，想系统对比一下优劣，帮我做一张表横向比较。",
+    "expected": "激活 consequences-table：强调表格至少含“现状”基准列、同一行用同一尺度；提醒不要忽略软性目标、不要过早排除方案；建完表必须做支配关系检测再决定分流。"
+  },
+  {
+    "id": "should-not-trigger-1",
+    "type": "should-not-trigger",
+    "prompt": "房东只给我这一个方案，签还是不签？",
+    "expected": "不激活本 skill——consequences-table 明确“不适用于只有一个方案的场景”（没有可比的多列就没有表的意义）；先提示用户扩充备选（“如果你不能选这个，你会做什么？”）补到至少 3 个再建表。"
+  },
+  {
+    "id": "boundary-1",
+    "type": "boundary",
+    "prompt": "帮我把这两个方案比一下吧，可我说不太清自己到底在乎什么，目标列不出来。",
+    "expected": "卡在 Step1“目标列不出来”：走失败编码表对应分支——用“你不想失去什么？”反向提问；仍失败则最小化目标清单（只留 2-3 个最明显的）先建表；若最终只剩 2 个方案各在半数目标上占优 → Step6 分流到 even-swaps 做等价交换。"
+  }
+]

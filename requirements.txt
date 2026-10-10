@@ -1,0 +1,17 @@
+# 本包的 Python 依赖（安装时优先全部装完，见 AGENTS.md 硬规矩 11）
+#
+# 装法（默认国内源）：
+#     python tools/install_deps.py --install
+# 或直接：
+#     python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
+#
+# 注：官方源 pypi.org 在本环境实测拉不动，**一律走国内镜像**；清华不通时换阿里云。
+#     pyswisseph 等需要编译的包在 Python 3.14 下 build wheel 会失败，别试。
+
+pymeeus>=0.5.12      # 纯 Python 历算（Meeus 算法）→ tools/paipan.py 排盘用；不需要星历数据文件、不用编译
+numpy>=1.24          # 形势取数的网格运算 → tools/xingshi.py 用
+pillow>=10           # 解码 Terrarium 高程瓦片（PNG）→ tools/xingshi.py 用
+pyshp>=2.3           # 读离线河网 shapefile（HydroRIVERS 亚洲）→ tools/xingshi.py 乡野水系兜底用
+lunar_python>=1.4    # 农历与干支历（四柱、藏干、纳音）→ tools/bazi.py 排盘用；纯 Python、不用编译
+ephem>=4.1           # 均时差精算（可选：缺它 tools/bazi.py 退回内置低精度公式）
+opencc-python-reimplemented>=0.1.7   # 繁简归一 → distill/zhouyi/verify_quotes.py 回书核用（源书是繁体、引文可能是简体，不归一就全对不上）

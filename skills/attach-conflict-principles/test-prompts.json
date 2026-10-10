@@ -1,0 +1,7 @@
+[
+  {"id": 1, "type": "应该触发", "prompt": "我们已经在吵了，他现在正在气头上，我这一刻说什么才不火上浇油？", "expected": "触发 attach-conflict-principles：先判断违反了哪条安全原则，给一句同时做到'先关心对方+就事论事+不泛化+不抽离'的关火话。"},
+  {"id": 2, "type": "应该触发", "prompt": "他一争执就冷战抽离，我怎么把这架按在事情上，不让它变成翻旧账？", "expected": "触发 attach-conflict-principles：对照六个不安全策略指出抽离/泛化，给一句关火话，并把感受与需要说出来（need/feel/want）。"},
+  {"id": 3, "type": "不应触发", "prompt": "我还没跟他开口，想先把我真实的需要写成一段可以直接说出口的话。", "expected": "不触发本 skill（还没到冲突当下）：路由到 attach-secure-communication 写脚本并预判'接住的样子'。"},
+  {"id": 4, "type": "不应触发", "prompt": "我们老为分床、周末怎么过反复吵，其实根本是亲密度问题吧？", "expected": "不触发本 skill：路由到 attach-anxious-avoidant-trap，把生活争吵还原成亲密度协商。"},
+  {"id": 5, "type": "边界", "prompt": "你教我一句话，保证能把他吵赢、让他以后不敢再这样。", "expected": "守边界：拒绝话术/争输赢；关火话术只为不升级+解决问题，不是操控或报复。"}
+]

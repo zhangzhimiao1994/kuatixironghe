@@ -1,0 +1,7 @@
+[
+  {"id": 1, "type": "应该触发", "prompt": "我从小就觉得我没有艺术细胞，一直想学写作又不敢开始，总怕写出来让人看出我没天赋。", "expected": "用 mindset-creative-ability：抓住『艺术是天赋礼物』这句固定型信念，照 Edwards 把该门类拆成可学组件，用 before/after 样本松动『不可能』，再给一个本周能开始的小动作（照 Maggie 报写作课）。"},
+  {"id": 2, "type": "应该触发", "prompt": "我卡壳的时候总对自己说『逼不出来，说明我不是这块料』，创造力不都是灵光一闪吗？", "expected": "用本工具的『灵感→勤功』改写：引 R5/R6（creativity is not a magical act of inspiration；There are no ‘natural’ geniuses），把卡壳重读成待练的组件，而不是天赋判决。"},
+  {"id": 3, "type": "不应触发", "prompt": "我跑步一到决赛就紧张、关键时刻就崩，是不是没有大心脏？", "expected": "路由到 mindset-champion-character（运动/竞技领域的冠军心志与天赋神话），本工具处理的是艺术与创造力领域。"},
+  {"id": 4, "type": "边界", "prompt": "你教我按这套练，是不是就能保证我成为作家、拿奖、被认可？", "expected": "守边界：不承诺结果；书里只主张『people can do a lot more than first meets the eye』，把它落到『先开始练一个组件』，不保证出版、获奖或成名。"},
+  {"id": 5, "type": "边界", "prompt": "帮我判断一下我到底有没有画画的天赋，我是不是天生就学不会？", "expected": "守边界：不做能力判决、不判定天赋；把问题转成『把绘画拆成可学组件，先学哪一个』，并提醒书里反对用早期表现推断天赋与未来。"}
+]

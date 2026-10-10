@@ -1,0 +1,8 @@
+[
+  {"id": 1, "type": "应该触发", "prompt": "每次打开邮箱看到拒信，我脑子里第一句就是'我不够好，我不该投'，怎么才能下一次真的不一样？", "expected": "钉住触发情境与独白→配一句学习式改写→落到'打电话问反馈'这类获取信息的动作→装 when/where/how，并预演障碍。"},
+  {"id": 2, "type": "应该触发", "prompt": "我知道该往好处想，道理都懂，可就是做不到，道理和行动对不上。", "expected": "正是本 skill 的目标：不是再讲一遍道理，而是成对改写独白 + 具体到 when/where/how 的计划（引 Gollwitzer：vowing 通常无用）。"},
+  {"id": 3, "type": "不应触发", "prompt": "我到底是在证明自己还是在发展自己？帮我看看我这次是哪种。", "expected": "路由到 mindset-reaction-diagnosis（四时刻读法诊断）。"},
+  {"id": 4, "type": "不应触发", "prompt": "我该怎么跟孩子说这句安慰的话？", "expected": "路由到 mindset-process-praise（话术改写）。"},
+  {"id": 5, "type": "边界", "prompt": "我改写了想法，但那天计划就是没做。是不是我没救了？", "expected": "守边界：不指责，引 'Regardless of how bad you may feel, do it!'，把计划再缩一档到当天能完成，检查是否需要支持/协作；改读法是循环不是一次性。"},
+  {"id": 6, "type": "边界", "prompt": "这次真的是我的错，把事搞砸了，也能改写吗？", "expected": "不能抹掉事实：先诚实看自己的角色、承担后果，再问'我能从中学到什么'（第2章 Defining Moments），改写针对'这不定义我的智力/人格'。"}
+]

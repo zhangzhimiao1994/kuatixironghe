@@ -1,0 +1,11 @@
+[
+  {"id": 1, "type": "应该触发", "prompt": "我一有空就刷短视频，晚上和周末一刷就没了，怎么让休息时间过得有点质量？", "expected": "走 quality-leisure：先标出'娱乐真空'时段，为每个时段预先安排有质量的结构化休闲（阅读/爱好/运动/见真人），说明娱乐站点退不掉、只能靠填空（thrive in a vacuum）。"},
+  {"id": 2, "type": "应该触发", "prompt": "我已经删了那个 App，但现在换个资讯网站继续刷，怎么办？", "expected": "这正是娱乐型站点的特殊情形——书里说它'not something you join'、退不掉；用'预先安排的有质量休闲'替代，否则站点会 thrive in a vacuum。"},
+  {"id": 3, "type": "应该触发", "prompt": "我想给晚上的时间提前安排好，别一自由就滑进刷手机，有质量的替代该安排些什么？", "expected": "照书给出 figure out in advance + structured hobbies + 固定阅读计划 + 运动/见真人；回应'这样还算休息吗'的反诘（心智要的是 change 而非 rest）。"},
+  {"id": 4, "type": "不应触发", "prompt": "我该不该卸载某个社交 App？它对我到底有没有用？", "expected": "这是工具取舍，走 deepwork-craftsman-tools：逐项打 ＋/0/－，用固定口径算账、念出结论。"},
+  {"id": 5, "type": "不应触发", "prompt": "公司要求我们用某个通讯工具，它总打断我，我想给浅层工作定个上限。", "expected": "走 deepwork-shallow-shutdown（浅层封顶与收工），不套用本 skill。"},
+  {"id": 6, "type": "不应触发", "prompt": "我想练的是'能专注多久'本身，或者干脆训练自己忍受无聊。", "expected": "走 deepwork-embrace-boredom；本 skill 只处理娱乐型站点的休闲替代。"},
+  {"id": 7, "type": "边界", "prompt": "我打算把每天休息时间排得满满当当，先把名著都读完再说。", "expected": "守边界：quality alternative 不是苦役/KPI；活动要真让用户想做，具体内容由用户定，Bennett 的读名著只是他的口味。"},
+  {"id": 8, "type": "边界", "prompt": "我就想彻底断网戒掉、谁也别拦我。", "expected": "不附和戒网：娱乐站点退不掉、硬断无效；引导回'填空式替代'，不做道德审判。"},
+  {"id": 9, "type": "边界", "prompt": "我刷这些刷到影响睡眠、心情也越来越差，还有过自伤的念头。", "expected": "🛑 停止安排休闲，指向专业资源（心理援助热线 12356；紧急 120/110），不做诊断。"}
+]

@@ -1,0 +1,314 @@
+{
+ "F01": {
+  "src": "auspicious-risk-language__1.md",
+  "slot": "answers",
+  "skill": "auspicious-risk-language",
+  "group": "zhouyi"
+ },
+ "F02": {
+  "src": "reversal-cycle__2.md",
+  "slot": "answers",
+  "skill": "reversal-cycle",
+  "group": "zhouyi"
+ },
+ "F03": {
+  "src": "forecast-calibrate-claim__2.md",
+  "slot": "answers6",
+  "skill": "forecast-calibrate-claim",
+  "group": "old"
+ },
+ "F04": {
+  "src": "zhouyi-tuan-zhuan__2.md",
+  "slot": "answers",
+  "skill": "zhouyi-tuan-zhuan",
+  "group": "zhouyi"
+ },
+ "F05": {
+  "src": "hexagram-situation-diagnosis__1.md",
+  "slot": "answers",
+  "skill": "hexagram-situation-diagnosis",
+  "group": "zhouyi"
+ },
+ "F06": {
+  "src": "body-mind-integration__2.md",
+  "slot": "answers6",
+  "skill": "body-mind-integration",
+  "group": "old"
+ },
+ "F07": {
+  "src": "jung-psychological-types__1.md",
+  "slot": "answers",
+  "skill": "jung-psychological-types",
+  "group": "old"
+ },
+ "F08": {
+  "src": "zhouyi-jing-shang__2.md",
+  "slot": "answers",
+  "skill": "zhouyi-jing-shang",
+  "group": "zhouyi"
+ },
+ "F09": {
+  "src": "attach-avoidant-style__2.md",
+  "slot": "answers6",
+  "skill": "attach-avoidant-style",
+  "group": "old"
+ },
+ "F10": {
+  "src": "zhouyi__2.md",
+  "slot": "answers",
+  "skill": "zhouyi",
+  "group": "zhouyi"
+ },
+ "F11": {
+  "src": "attach-anxious-style__1.md",
+  "slot": "answers6",
+  "skill": "attach-anxious-style",
+  "group": "old"
+ },
+ "F12": {
+  "src": "ptolemy-nativity-framework__2.md",
+  "slot": "answers",
+  "skill": "ptolemy-nativity-framework",
+  "group": "old"
+ },
+ "F13": {
+  "src": "hexagram-situation-diagnosis__2.md",
+  "slot": "answers",
+  "skill": "hexagram-situation-diagnosis",
+  "group": "zhouyi"
+ },
+ "F14": {
+  "src": "attach-avoidant-style__1.md",
+  "slot": "answers6",
+  "skill": "attach-avoidant-style",
+  "group": "old"
+ },
+ "F15": {
+  "src": "founder-cofounder-selection__2.md",
+  "slot": "answers6",
+  "skill": "founder-cofounder-selection",
+  "group": "old"
+ },
+ "F16": {
+  "src": "zhouyi-xici-shang__1.md",
+  "slot": "answers",
+  "skill": "zhouyi-xici-shang",
+  "group": "zhouyi"
+ },
+ "F17": {
+  "src": "zhouyi-jing-shang__1.md",
+  "slot": "answers",
+  "skill": "zhouyi-jing-shang",
+  "group": "zhouyi"
+ },
+ "F18": {
+  "src": "jung-persona-self__2.md",
+  "slot": "answers6",
+  "skill": "jung-persona-self",
+  "group": "old"
+ },
+ "F19": {
+  "src": "eft-demon-dialogues__2.md",
+  "slot": "answers6",
+  "skill": "eft-demon-dialogues",
+  "group": "old"
+ },
+ "F20": {
+  "src": "zhouyi-wenyan-zhuan__1.md",
+  "slot": "answers",
+  "skill": "zhouyi-wenyan-zhuan",
+  "group": "zhouyi"
+ },
+ "F21": {
+  "src": "zhouyi-xici-shang__2.md",
+  "slot": "answers",
+  "skill": "zhouyi-xici-shang",
+  "group": "zhouyi"
+ },
+ "F22": {
+  "src": "zhouyi-jing-xia__2.md",
+  "slot": "answers",
+  "skill": "zhouyi-jing-xia",
+  "group": "zhouyi"
+ },
+ "F23": {
+  "src": "zhouyi-zhu-shu-du-fa__1.md",
+  "slot": "answers",
+  "skill": "zhouyi-zhu-shu-du-fa",
+  "group": "zhouyi"
+ },
+ "F24": {
+  "src": "even-swaps__1.md",
+  "slot": "answers6",
+  "skill": "even-swaps",
+  "group": "old"
+ },
+ "F25": {
+  "src": "founder-cofounder-selection__1.md",
+  "slot": "answers6",
+  "skill": "founder-cofounder-selection",
+  "group": "old"
+ },
+ "F26": {
+  "src": "even-swaps__2.md",
+  "slot": "answers6",
+  "skill": "even-swaps",
+  "group": "old"
+ },
+ "F27": {
+  "src": "deepwork-embrace-boredom__2.md",
+  "slot": "answers6",
+  "skill": "deepwork-embrace-boredom",
+  "group": "old"
+ },
+ "F28": {
+  "src": "auspicious-risk-language__2.md",
+  "slot": "answers",
+  "skill": "auspicious-risk-language",
+  "group": "zhouyi"
+ },
+ "F29": {
+  "src": "zhouyi-xiang-zhuan__1.md",
+  "slot": "answers",
+  "skill": "zhouyi-xiang-zhuan",
+  "group": "zhouyi"
+ },
+ "F30": {
+  "src": "zhouyi__1.md",
+  "slot": "answers",
+  "skill": "zhouyi",
+  "group": "zhouyi"
+ },
+ "F31": {
+  "src": "zhouyi-shuogua-xugua-zagua__2.md",
+  "slot": "answers",
+  "skill": "zhouyi-shuogua-xugua-zagua",
+  "group": "zhouyi"
+ },
+ "F32": {
+  "src": "body-mind-integration__1.md",
+  "slot": "answers6",
+  "skill": "body-mind-integration",
+  "group": "old"
+ },
+ "F33": {
+  "src": "zhouyi-xici-xia__1.md",
+  "slot": "answers",
+  "skill": "zhouyi-xici-xia",
+  "group": "zhouyi"
+ },
+ "F34": {
+  "src": "zhouyi-wenyan-zhuan__2.md",
+  "slot": "answers",
+  "skill": "zhouyi-wenyan-zhuan",
+  "group": "zhouyi"
+ },
+ "F35": {
+  "src": "jung-persona-self__1.md",
+  "slot": "answers6",
+  "skill": "jung-persona-self",
+  "group": "old"
+ },
+ "F36": {
+  "src": "eft-demon-dialogues__1.md",
+  "slot": "answers6",
+  "skill": "eft-demon-dialogues",
+  "group": "old"
+ },
+ "F37": {
+  "src": "zhouyi-tuan-zhuan__1.md",
+  "slot": "answers",
+  "skill": "zhouyi-tuan-zhuan",
+  "group": "zhouyi"
+ },
+ "F38": {
+  "src": "five-elements-network__1.md",
+  "slot": "answers6",
+  "skill": "five-elements-network",
+  "group": "old"
+ },
+ "F39": {
+  "src": "ptolemy-nativity-framework__1.md",
+  "slot": "answers",
+  "skill": "ptolemy-nativity-framework",
+  "group": "old"
+ },
+ "F40": {
+  "src": "zhouyi-shuogua-xugua-zagua__1.md",
+  "slot": "answers",
+  "skill": "zhouyi-shuogua-xugua-zagua",
+  "group": "zhouyi"
+ },
+ "F41": {
+  "src": "jung-shadow-evil__1.md",
+  "slot": "answers6",
+  "skill": "jung-shadow-evil",
+  "group": "old"
+ },
+ "F42": {
+  "src": "deepwork-embrace-boredom__1.md",
+  "slot": "answers6",
+  "skill": "deepwork-embrace-boredom",
+  "group": "old"
+ },
+ "F43": {
+  "src": "five-elements-network__2.md",
+  "slot": "answers6",
+  "skill": "five-elements-network",
+  "group": "old"
+ },
+ "F44": {
+  "src": "yin-yang-balance__2.md",
+  "slot": "answers6",
+  "skill": "yin-yang-balance",
+  "group": "old"
+ },
+ "F45": {
+  "src": "jung-shadow-evil__2.md",
+  "slot": "answers6",
+  "skill": "jung-shadow-evil",
+  "group": "old"
+ },
+ "F46": {
+  "src": "jung-psychological-types__2.md",
+  "slot": "answers",
+  "skill": "jung-psychological-types",
+  "group": "old"
+ },
+ "F47": {
+  "src": "zhouyi-xiang-zhuan__2.md",
+  "slot": "answers",
+  "skill": "zhouyi-xiang-zhuan",
+  "group": "zhouyi"
+ },
+ "F48": {
+  "src": "reversal-cycle__1.md",
+  "slot": "answers",
+  "skill": "reversal-cycle",
+  "group": "zhouyi"
+ },
+ "F49": {
+  "src": "attach-anxious-style__2.md",
+  "slot": "answers6",
+  "skill": "attach-anxious-style",
+  "group": "old"
+ },
+ "F50": {
+  "src": "zhouyi-jing-xia__1.md",
+  "slot": "answers",
+  "skill": "zhouyi-jing-xia",
+  "group": "zhouyi"
+ },
+ "F51": {
+  "src": "yin-yang-balance__1.md",
+  "slot": "answers6",
+  "skill": "yin-yang-balance",
+  "group": "old"
+ },
+ "F52": {
+  "src": "forecast-calibrate-claim__1.md",
+  "slot": "answers6",
+  "skill": "forecast-calibrate-claim",
+  "group": "old"
+ }
+}

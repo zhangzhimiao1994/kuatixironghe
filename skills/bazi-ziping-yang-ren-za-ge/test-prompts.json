@@ -1,0 +1,68 @@
+[
+  {
+    "id": "should-1",
+    "type": "should_trigger",
+    "prompt": "「阳刃者，劫我正财之神，乃正财之七煞也」，阳刃跟劫财是一回事吗？书上为什么把它单立一格？",
+    "expected": "激活 bazi-ziping-yang-ren-za-ge：用 R1 说明阳刃是正财之七煞、禄前一位惟五阳有之、不叫劫而叫刃是「劫之甚」，与劫财不同；给出处（四十三·論陽刃）。"
+  },
+  {
+    "id": "should-2",
+    "type": "should_trigger",
+    "prompt": "「阳刃用官，透刃不虑；阳刃露煞，透刃无成」是什么意思，为什么透官没事、透煞反而无功？",
+    "expected": "激活 bazi-ziping-yang-ren-za-ge：用 R3 给出两种结果，用 R4 说明「官能制刃，透而不为害；刃能合煞，则有何功」；给出处（四十三·論陽刃）。"
+  },
+  {
+    "id": "should-3",
+    "type": "should_trigger",
+    "prompt": "书上说建禄与月劫「可同一格，不必加分」，这是为什么？禄堂透出不能直接用吗？",
+    "expected": "激活 bazi-ziping-yang-ren-za-ge：用 R9 说明建禄者月建逢禄堂、禄即是劫，禄堂透出「即可依以用者非也」，故建禄月劫同一格、别取财官煞食为用；给出处（四十五·論建祿月劫）。"
+  },
+  {
+    "id": "should-4",
+    "type": "should_trigger",
+    "prompt": "「拱禄、拱贵、趋乾、归禄、鼠贵、骑龙」这些格名书上到底认不认？",
+    "expected": "激活 bazi-ziping-yang-ren-za-ge：用 R16 说明本书判其「一切无理之格，既置勿取…徒误后学而已」，并提篇29–30 反对拘泥外格；给出处（四十七·論雜格）。"
+  },
+  {
+    "id": "should-5",
+    "type": "should_trigger",
+    "prompt": "「伤官伤尽」一说对不对，书上怎么看？",
+    "expected": "激活 bazi-ziping-yang-ren-za-ge：用 R17 说明篇47 反问「不知官有何罪，而恶之如此」，本书对伤官伤尽一路是翻案的；给出处（四十七·論雜格）。"
+  },
+  {
+    "id": "should-not-1",
+    "type": "should_not_trigger",
+    "prompt": "帮我看看我的印綬和食神怎么取用？",
+    "expected": "不激活 bazi-ziping-yang-ren-za-ge（印綬与食神转 bazi-ziping-yin-shou-shi-shen）。"
+  },
+  {
+    "id": "should-not-2",
+    "type": "should_not_trigger",
+    "prompt": "帮我算一下我的八字，看看这一生大概怎么样。",
+    "expected": "不激活：属排盘与断终身，本族不接；先走 bazi-hub 硬闸门，缺柱不排。"
+  },
+  {
+    "id": "should-not-3",
+    "type": "should_not_trigger",
+    "prompt": "三命通會里「壬騎龍背」「六乙鼠貴」这些格怎么断？",
+    "expected": "不激活本篇（三命通會那一路格名转 bazi-sanming-xi-ji-pian 等；本书篇29–30 正反对拘泥外格）。"
+  },
+  {
+    "id": "edge-1",
+    "type": "boundary",
+    "prompt": "我只记得出生日、没记住月份，能看出是不是阳刃格吗？",
+    "expected": "边界：阳刃、建禄月劫都要先看月令，只到日子不能定月支；照实说要补出生月，不用占位信息硬排。"
+  },
+  {
+    "id": "edge-2",
+    "type": "boundary",
+    "prompt": "书里说我这类「尤为贵显」，是不是我注定富贵？",
+    "expected": "边界：说明「尤为贵显」「可就富」是原书的评价语，属书里的说法，不落到具体人身上，也不给富贵寿夭判断；只讲书里取用条件满足到哪一步。"
+  },
+  {
+    "id": "edge-3",
+    "type": "boundary",
+    "prompt": "书上和别的地方对「鼠贵」这类格的看法不一样，到底听谁的？",
+    "expected": "边界：按两说并陈处理——本书篇47 判其「既置勿取」并标出处，三命通會卷十一·喜忌篇立其为格并标出处；两说都展示、不选边、不合成一句。"
+  }
+]

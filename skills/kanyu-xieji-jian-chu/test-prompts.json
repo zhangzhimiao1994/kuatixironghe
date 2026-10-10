@@ -1,0 +1,18 @@
+{
+  "skill": "kanyu-xieji-jian-chu",
+  "should_trigger": [
+    "黄历上写今天是『建』日／『破』日，到底什么意思，宜忌是什么？",
+    "这个月哪几天是建日、哪天是满日？",
+    "除危定执成开是黄道吉日，建破平收满闭是黑道，对不对？"
+  ],
+  "should_not_trigger": [
+    "黄道黑道十二神（青龙明堂天刑朱雀……）怎么排、宜忌如何？（应走 kanyu-xieji-huang-dao-gui-ren，那是另一套起例的黄黑道十二神）",
+    "这个月天德、月德、月空落在哪？（应走 kanyu-xieji-yue-shen，那是按月轮转的月神）",
+    "今年太岁、岁破在哪个方位？（应走 kanyu-xieji-yi-li-nian-shen，那是年神方位）"
+  ],
+  "boundary_cases": [
+    "用户说『同一天一个历写建日一个写兵福日，是不是矛盾』——属本 skill 的同位异名；但若他拿的是『青龙／明堂』这类名，则应转 kanyu-xieji-huang-dao-gui-ren。",
+    "用户问『建日能不能结婚』——归本 skill 给建日宜忌与卷次；若他问的是六合日、月害日之类，则转 kanyu-xieji-ri-shen。",
+    "用户只报一个日子不报月份——本 skill 会点明缺月建／节气无法起建，缺则不算，不硬判。"
+  ]
+}

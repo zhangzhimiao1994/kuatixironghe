@@ -1,0 +1,50 @@
+[
+  {
+    "id": "should-1",
+    "type": "should_trigger",
+    "prompt": "《子平真詮》开头说「天地之间，一气而已」，那十干十二支跟五行到底是什么关系？",
+    "expected": "激活 bazi-ziping-gan-zhi-xing-qing：用 R1 讲一气→动静→阴阳→四象→五行，再讲五行的阴阳再分为十干、天地阴阳再分为十二支；用 R2「甲乙如官长，寅卯如该管地方」说明天干动、地支静的分位；给出处（篇一·論十干十二支）。"
+  },
+  {
+    "id": "should-2",
+    "type": "should_trigger",
+    "prompt": "书里说「水同生木，而印有偏正；金同克木，而局有官煞」，同样是克，为什么正官和七煞要分开？",
+    "expected": "激活 bazi-ziping-gan-zhi-xing-qing：用 R3 拆「同生同克因阴阳而生偏正与官煞」，回到篇二·論陰陽生克；说明这是十神分偏正的根，取用神是另一层。"
+  },
+  {
+    "id": "should-3",
+    "type": "should_trigger",
+    "prompt": "「得时俱为旺论，失时便作衰看」为什么说是死法？那活法是什么？",
+    "expected": "激活 bazi-ziping-gan-zhi-xing-qing：用 R7 讲十干不论月令休囚、只要四柱有根便可受财官而当伤官七煞，并区分长生禄旺（重根）与墓库余气（轻根）；给出处（篇六·論十干得時不旺失時不弱）。"
+  },
+  {
+    "id": "should-4",
+    "type": "should_trigger",
+    "prompt": "我的四柱是甲子 癸酉 乙卯 丙戌，天干有合、地支有冲，照书里这几篇怎么读？",
+    "expected": "激活 bazi-ziping-gan-zhi-xing-qing：走落盘读法——先摆十干阴阳、天干合化、地支刑冲会合，再逐条核（合是隔位／本身之合／争合，冲有无会合可解，日主有无根），输出「按书里这一类读，偏 X」＋篇名出处，末尾收口不应期、不断终身。"
+  },
+  {
+    "id": "should-not-1",
+    "type": "should_not_trigger",
+    "prompt": "这八字月令取什么用神，格局成不成？",
+    "expected": "不激活 bazi-ziping-gan-zhi-xing-qing（月令用神与格局成败转 bazi-ziping-yong-shen-zong-gang）。"
+  },
+  {
+    "id": "should-not-2",
+    "type": "should_not_trigger",
+    "prompt": "帮我看看这八字明年运势能否翻身，几时能结婚？",
+    "expected": "不激活：属批流年大运、断终身、婚姻问题，本族不接；先走 bazi-hub 硬闸门，缺柱不排。"
+  },
+  {
+    "id": "edge-1",
+    "type": "boundary",
+    "prompt": "甲生寅卯月，月时两透辛官，为什么书里说有时「合官留煞」有时反而「官星反轻」？",
+    "expected": "边界：用 R5、R6 讲「合而无伤于合」与「合一留一」的分寸——合去的是喜是忌、是否隔位；说明这是篇五的活权衡，不给「一定如何」的定论，并标出处（篇五·論十干合而不合）。"
+  },
+  {
+    "id": "edge-2",
+    "type": "boundary",
+    "prompt": "我只记得自己是酉月卯日生的，这样能看出冲不冲吗？",
+    "expected": "边界：酉月卯日本身即卯酉相冲（篇七所举之例），但缺年月时就说缺什么；会合能否解冲要看全四支，缺柱处照实说，不用占位信息硬补。"
+  }
+]

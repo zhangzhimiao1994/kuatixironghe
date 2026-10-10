@@ -1,0 +1,16 @@
+{
+  "should_trigger": [
+    {"prompt": "『占山之法，以势为难，而形次之，方又次之』这三次序怎么讲？", "reason": "用户问本主题的开篇次序。"},
+    {"prompt": "『势如万马自天而下，其葬王者』『形如覆舟，女病男囚』这些句子该怎么读？", "reason": "用户问势与形的品类读法。"},
+    {"prompt": "『势与形顺者吉，势与形逆者凶』是什么意思？", "reason": "用户问顺逆总则。"}
+  ],
+  "should_not_trigger": [
+    {"prompt": "风水这个词到底什么意思？", "reason": "归 kanyu-zangshu-cang-feng-de-shui（藏风得水），不归本 skill。"},
+    {"prompt": "势来形止、全气之地怎么讲？", "reason": "归 kanyu-zangshu-shi-lai-xing-zhi（势来形止），不归本 skill。"},
+    {"prompt": "平洋和山垄怎么分，平地怎么看？", "reason": "归 kanyu-zangshu-zhi-long-bian（支垄之辨），不归本 skill。"}
+  ],
+  "boundary_cases": [
+    {"prompt": "书上说『其葬王者』，那葬下去是不是就能出王侯？", "reason": "守边界：那是书里的评价语，非承诺；并引注疏『不得拘之』提醒不要死抠。"},
+    {"prompt": "我看这座山像卧牛，那它是不是就是吉地？", "reason": "喝形当定论要退回去：书里自承有佯诈穴、花假，只给倾向，不凭像什么下断语。"}
+  ]
+}

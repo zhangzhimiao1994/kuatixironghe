@@ -1,0 +1,114 @@
+{
+ "E01": {
+  "src": "auspicious-risk-language__2.md",
+  "skill": "auspicious-risk-language"
+ },
+ "E02": {
+  "src": "auspicious-risk-language__1.md",
+  "skill": "auspicious-risk-language"
+ },
+ "E03": {
+  "src": "zhouyi__2.md",
+  "skill": "zhouyi"
+ },
+ "E04": {
+  "src": "zhouyi-xiang-zhuan__1.md",
+  "skill": "zhouyi-xiang-zhuan"
+ },
+ "E05": {
+  "src": "reversal-cycle__1.md",
+  "skill": "reversal-cycle"
+ },
+ "E06": {
+  "src": "zhouyi-tuan-zhuan__1.md",
+  "skill": "zhouyi-tuan-zhuan"
+ },
+ "E07": {
+  "src": "zhouyi-wenyan-zhuan__2.md",
+  "skill": "zhouyi-wenyan-zhuan"
+ },
+ "E08": {
+  "src": "reversal-cycle__2.md",
+  "skill": "reversal-cycle"
+ },
+ "E09": {
+  "src": "jung-psychological-types__2.md",
+  "skill": "jung-psychological-types"
+ },
+ "E10": {
+  "src": "zhouyi-jing-shang__2.md",
+  "skill": "zhouyi-jing-shang"
+ },
+ "E11": {
+  "src": "zhouyi-xici-shang__2.md",
+  "skill": "zhouyi-xici-shang"
+ },
+ "E12": {
+  "src": "zhouyi-jing-xia__2.md",
+  "skill": "zhouyi-jing-xia"
+ },
+ "E13": {
+  "src": "zhouyi-jing-xia__1.md",
+  "skill": "zhouyi-jing-xia"
+ },
+ "E14": {
+  "src": "zhouyi-xici-shang__1.md",
+  "skill": "zhouyi-xici-shang"
+ },
+ "E15": {
+  "src": "zhouyi-shuogua-xugua-zagua__2.md",
+  "skill": "zhouyi-shuogua-xugua-zagua"
+ },
+ "E16": {
+  "src": "zhouyi-wenyan-zhuan__1.md",
+  "skill": "zhouyi-wenyan-zhuan"
+ },
+ "E17": {
+  "src": "hexagram-situation-diagnosis__2.md",
+  "skill": "hexagram-situation-diagnosis"
+ },
+ "E18": {
+  "src": "ptolemy-nativity-framework__2.md",
+  "skill": "ptolemy-nativity-framework"
+ },
+ "E19": {
+  "src": "zhouyi-xici-xia__1.md",
+  "skill": "zhouyi-xici-xia"
+ },
+ "E20": {
+  "src": "zhouyi-tuan-zhuan__2.md",
+  "skill": "zhouyi-tuan-zhuan"
+ },
+ "E21": {
+  "src": "zhouyi__1.md",
+  "skill": "zhouyi"
+ },
+ "E22": {
+  "src": "hexagram-situation-diagnosis__1.md",
+  "skill": "hexagram-situation-diagnosis"
+ },
+ "E23": {
+  "src": "zhouyi-jing-shang__1.md",
+  "skill": "zhouyi-jing-shang"
+ },
+ "E24": {
+  "src": "jung-psychological-types__1.md",
+  "skill": "jung-psychological-types"
+ },
+ "E25": {
+  "src": "zhouyi-shuogua-xugua-zagua__1.md",
+  "skill": "zhouyi-shuogua-xugua-zagua"
+ },
+ "E26": {
+  "src": "ptolemy-nativity-framework__1.md",
+  "skill": "ptolemy-nativity-framework"
+ },
+ "E27": {
+  "src": "zhouyi-zhu-shu-du-fa__1.md",
+  "skill": "zhouyi-zhu-shu-du-fa"
+ },
+ "E28": {
+  "src": "zhouyi-xiang-zhuan__2.md",
+  "skill": "zhouyi-xiang-zhuan"
+ }
+}

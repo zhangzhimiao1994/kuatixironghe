@@ -1,0 +1,8 @@
+[
+  {"id": 1, "type": "应该触发", "prompt": "我想每天读书，但一直没开始，帮我把它变成真的能执行的。", "expected": "把『多读书』改成具体行为，选执行意图（I will [BEHAVIOR] at [TIME] in [LOCATION]）或习惯堆叠（After [CURRENT HABIT], I will [NEW HABIT]），再缩到两分钟版（读一页），验证提示具体、频率匹配、两分钟内可完成。"},
+  {"id": 2, "type": "应该触发", "prompt": "我想每天早上冥想，但早上很乱，不知道挂在哪一步后面好。", "expected": "用习惯堆叠：从『每天雷打不动做的事』（倒咖啡、刷牙）里挑锚点，给完整句式，并按第5章标准检查锚点具体、频率一致。"},
+  {"id": 3, "type": "不应触发", "prompt": "我到底是想减肥还是想做个健康的人？这两种想法有什么不一样？", "expected": "这是身份/结果导向的改写 → 路由到 habit-identity-votes。"},
+  {"id": 4, "type": "不应触发", "prompt": "我打卡断了五天，感觉白做了，还有救吗？", "expected": "已经维持过、现在是中断 → 路由到 habit-streak-plateau（never miss twice）。"},
+  {"id": 5, "type": "边界", "prompt": "你帮我一次把运动、读书、冥想、早睡四个习惯都排好时间吧。", "expected": "守边界：一次只启动一个习惯，其余留到下一轮，避免提示与注意力互相挤占。"},
+  {"id": 6, "type": "边界", "prompt": "这只是读一页也太小了吧，根本没用，我要不就一天读一章。", "expected": "触发步骤4 CHECKPOINT：引『standardize before you optimize』与两分钟规则——先建立现身习惯，强度后加；可用『do it for two minutes and then stop』的玩法。"}
+]

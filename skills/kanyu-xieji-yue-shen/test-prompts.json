@@ -1,0 +1,18 @@
+{
+  "skill": "kanyu-xieji-yue-shen",
+  "should_trigger": [
+    "这个月天德在哪个方向？我想在那边修个院墙。",
+    "月德、月德合、月空这三个名字看着像一家人，为什么月空反而有说宜有说忌？",
+    "天德合是怎么回事？跟天德差在哪？"
+  ],
+  "should_not_trigger": [
+    "今天是建日还是破日？（应走 kanyu-xieji-jian-chu，那是建除十二神，起例与月神不同）",
+    "今年太岁、岁破、三煞落在哪？（应走 kanyu-xieji-yi-li-nian-shen，那是年神方位）",
+    "这个月哪几天是三合日、驿马日？（应走 kanyu-xieji-ri-shen，那是按月建取用的日辰神煞）"
+  ],
+  "boundary_cases": [
+    "用户问『天德』——若指月神天德（正月丁、二月坤……）归本 skill；若指黄道十二神里的天德（又名宝光），则应转 kanyu-xieji-huang-dao-gui-ren，须先问清是哪一套。",
+    "用户问『这个月修方吉不吉』——本 skill 只给天德的方与日倾向；若要飞宫求禄马吉方，则转 kanyu-xieji-lu-ma。",
+    "用户只给『最近』不给月份——本 skill 会点明缺月建／节气，缺则不算，不硬判。"
+  ]
+}

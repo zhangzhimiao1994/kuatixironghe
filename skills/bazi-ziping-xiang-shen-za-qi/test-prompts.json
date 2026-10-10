@@ -1,0 +1,50 @@
+[
+  {
+    "id": "should-1",
+    "type": "should_trigger",
+    "prompt": "书里说「月令既得用神，则别位亦必有相」，这个「相神」到底是什么，怎么认？",
+    "expected": "激活 bazi-ziping-xiang-shen-za-qi：用 R1 讲用神如君、相神如相辅者，并以收尾句「凡全局之格，赖此一字而成者，均谓之相也」定判据；给出处（篇十五·論相神緊要）。"
+  },
+  {
+    "id": "should-2",
+    "type": "should_trigger",
+    "prompt": "为什么说「伤相甚于伤用」，相神被破格就败？",
+    "expected": "激活 bazi-ziping-xiang-shen-za-qi：用 R2、R3 讲伤相更重、相神无破则格成、相伤则立败，并举甲用酉官透丁逢壬、又逢戊伤癸之相的例子；给出处（篇十五）。"
+  },
+  {
+    "id": "should-3",
+    "type": "should_trigger",
+    "prompt": "辰戌丑未为什么叫杂气？「透干会取其清者用之，杂而不杂」怎么落？",
+    "expected": "激活 bazi-ziping-xiang-shen-za-qi：用 R4 讲四墓所藏者多用神不一故杂，用 R5 讲透干一透一用、兼透兼用、会支用水印，再看有情无情；给出处（篇十六·論雜氣如何取用）。"
+  },
+  {
+    "id": "should-4",
+    "type": "should_trigger",
+    "prompt": "我的四柱是己丑 壬辰 己未 甲子，月令是辰，照这三篇怎么取用、相神是哪个？",
+    "expected": "激活 bazi-ziping-xiang-shen-za-qi：走落盘读法——先摆月令所藏与透出，逐条核（月令可取否、透还是藏、相神是谁有无破、四墓冲不冲），输出「按书里这一类读，偏 X」＋篇名出处，末尾收口不应期、不断终身。"
+  },
+  {
+    "id": "should-not-1",
+    "type": "should_not_trigger",
+    "prompt": "这八字用神取定了，格局高低怎么论、成败救应看哪几处？",
+    "expected": "不激活 bazi-ziping-xiang-shen-za-qi（用神总纲与成败救应转 bazi-ziping-yong-shen-zong-gang）。"
+  },
+  {
+    "id": "should-not-2",
+    "type": "should_not_trigger",
+    "prompt": "帮我算算这八字今年财运如何、将来能不能升职？",
+    "expected": "不激活：属批流年大运、断终身，本族不接；先走 bazi-hub 硬闸门，缺柱不排。"
+  },
+  {
+    "id": "edge-1",
+    "type": "boundary",
+    "prompt": "我听说「辰戌丑未最喜刑冲，财官入库不冲不发」，书里也这么说吗？",
+    "expected": "边界：引 R6 说明这恰是书里判为「俗书盛称之，子平先生造命无是说」的一句；并引 R7 讲四墓不忌刑冲、刑冲未必成格，财官属土冲则库启、属水冲则反累；两说标出处，不替书里与俗说调停。"
+  },
+  {
+    "id": "edge-2",
+    "type": "boundary",
+    "prompt": "我只知道是辰月生的，具体日子时辰记不清，能定杂气取哪个字吗？",
+    "expected": "边界：辰为四墓、所藏者多，取用要看透干与会支（R4、R5），缺日时便看不全透会；照实说缺什么、要到什么程度才能取，不用占位信息硬排。"
+  }
+]

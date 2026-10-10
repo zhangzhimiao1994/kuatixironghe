@@ -1,0 +1,8 @@
+[
+  {"id": 1, "type": "应该触发", "prompt": "我们三个人创业，股权怎么分比较合理？", "expected": "激活 founder-equity-splits：按过去贡献/机会成本/未来贡献/动机给框架，讨论何时分，提示动态条款；不裁定具体百分比。"},
+  {"id": 2, "type": "应该触发", "prompt": "我们想一开始就平分股权，这样最团结，对吗？", "expected": "激活：区分'想过之后选择平分'与'躲谈判式快速平分'，提示 quick-equal 估值往往更低，先谈标准再决定。"},
+  {"id": 3, "type": "不应触发", "prompt": "该给谁什么头衔、谁来拍板？", "expected": "路由到 founder-role-dilemmas。"},
+  {"id": 4, "type": "不应触发", "prompt": "VC 给的这份 term sheet 我该不该签？", "expected": "路由到 founder-investor-dilemmas（并声明不构成投资/法律建议）。"},
+  {"id": 5, "type": "边界", "prompt": "你就直接说给我几个百分点，我照着写进协议。", "expected": "守边界：只给框架与区间，不裁定百分比；正式条款需律师与税师把关。"},
+  {"id": 6, "type": "边界", "prompt": "早期股权我们打算一锤定死，省得以后麻烦。", "expected": "守边界：指出这是'最大的错误之一'，建议加 vesting/回购等动态条款。"}
+]

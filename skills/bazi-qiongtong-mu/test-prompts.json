@@ -1,0 +1,56 @@
+[
+  {
+    "id": "should-1",
+    "type": "should-trigger",
+    "prompt": "甲木生在正月，书上说「初春尚有余寒，得丙癸逢，富贵双全」，这句怎么讲？",
+    "expected": "激活 bazi-qiongtong-mu：回 R10（论甲木·正月甲木），给原书依据＋取用条件两句。"
+  },
+  {
+    "id": "should-2",
+    "type": "should-trigger",
+    "prompt": "乙木三春为什么要「丙癸不可离」，丙为什么在先？",
+    "expected": "激活 bazi-qiongtong-mu：回 R16、R17（论乙木·三春乙木、正月乙木）。"
+  },
+  {
+    "id": "should-3",
+    "type": "should-trigger",
+    "prompt": "「生木得火而秀，死木得金而造」是什么意思，怎么分生木死木？",
+    "expected": "激活 bazi-qiongtong-mu：回 R3、R4（论木），先分活木死木再谈取用。"
+  },
+  {
+    "id": "should-4",
+    "type": "should-trigger",
+    "prompt": "我的四柱是甲寅 丙寅 甲辰 癸亥，甲木生正月，这盘该先取哪一味、怎么照书读？",
+    "expected": "激活 bazi-qiongtong-mu 并走**落盘读法**：①取盘上的料（日主甲、月支寅、四柱透藏——丙透／癸透等、日支月支合活木还是死木）②逐条核 R3、R4（活木死木）→ R10／R9（正月甲木取丙暖癸润）→ R11（正二月素无取从才从杀从化之理）③给一句「按书里这一类读，偏 X」＋出处（《窮通寶鑑》論甲木·正月甲木）④收口声明不应期、不断终身、不替人决定。"
+  },
+  {
+    "id": "should-not-1",
+    "type": "should-not-trigger",
+    "prompt": "丙火为什么专用壬水？",
+    "expected": "不激活本 skill；转 bazi-qiongtong-huo（论丙火）。"
+  },
+  {
+    "id": "should-not-2",
+    "type": "should-not-trigger",
+    "prompt": "五行为什么叫「行」？",
+    "expected": "不激活本 skill；转 bazi-qiongtong-wu-xing（五行总论）。"
+  },
+  {
+    "id": "should-not-3",
+    "type": "should-not-trigger",
+    "prompt": "帮我看看今年流年对我甲木日主好不好。",
+    "expected": "不激活本 skill；本族不批流年大运。"
+  },
+  {
+    "id": "boundary-1",
+    "type": "boundary",
+    "prompt": "书里写「阳刃驾杀」「水泛木浮」，是不是说我朋友这命就定了？",
+    "expected": "边界：这些是原书条文与书里的评价语，只照引并标明，不落到具体的人身上。"
+  },
+  {
+    "id": "boundary-2",
+    "type": "boundary",
+    "prompt": "五六月甲木到底用癸还是用丁？",
+    "expected": "边界：照原书分月分句给出（五月先癸后丁、六月先丁后庚等），不强行合并成一句。"
+  }
+]

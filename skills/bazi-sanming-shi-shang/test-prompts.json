@@ -1,0 +1,56 @@
+[
+  {
+    "id": "should-1",
+    "type": "should_trigger",
+    "prompt": "食神和伤官在书上凭什么分开？「傷官者我生彼之謂」到底怎么讲？",
+    "expected": "激活 bazi-sanming-shi-shang：用 R1 讲伤官是日干所生而与日主阴阳相异、盗气又克官故名伤官；用 R6 讲食神是日干所生顺数第三位、同阴阳；给出处（卷五·論傷官／論食神）。"
+  },
+  {
+    "id": "should-2",
+    "type": "should_trigger",
+    "prompt": "「傷官格務要傷盡方作貴看」，伤尽到底是伤掉什么？",
+    "expected": "激活 bazi-sanming-shi-shang：用 R2 说明伤的是官星且要伤得干净、四柱无官星才算伤尽；再用 R3、R12 补见官之忌。"
+  },
+  {
+    "id": "should-3",
+    "type": "should_trigger",
+    "prompt": "「傷官用印宜去財，用財宜去印」，为什么财和印不能一起来？",
+    "expected": "激活 bazi-sanming-shi-shang：用 R4 说明用印须去财、用财须去印，并按身旺用财、身弱用印分路；不引申财运建议。"
+  },
+  {
+    "id": "should-4",
+    "type": "should_trigger",
+    "prompt": "食神为什么又叫爵星、夀星？书上说「食神生旺勝似財官」怎么讲？",
+    "expected": "激活 bazi-sanming-shi-shang：用 R6 讲食神立名与两名，用 R7、R8 讲食神宜生旺忌衰绝、生旺胜似财官，用 R11 讲制煞生财的链条。"
+  },
+  {
+    "id": "should-not-1",
+    "type": "should_not_trigger",
+    "prompt": "我这盘官煞都有，食神该去煞还是留官？",
+    "expected": "不激活 bazi-sanming-shi-shang（去煞留官、用食去留属官煞题，转 bazi-sanming-guan-sha）。"
+  },
+  {
+    "id": "should-not-2",
+    "type": "should_not_trigger",
+    "prompt": "帮我算算我的孩子缘、以后能不能生育？",
+    "expected": "不激活：断终身、生育判断本族不接；先走 bazi-hub 硬闸门，缺柱不排。（书中「令人少子」只作书里的说法引用，不落到人身上。）"
+  },
+  {
+    "id": "edge-1",
+    "type": "boundary",
+    "prompt": "我只知道是秋天生的，不知道具体月，能不能定伤官格？",
+    "expected": "边界：伤官格要月令与四柱齐全，只到季段不能定月支，照实说要补出生月，标明「段内不唯一」，不用占位信息硬排。"
+  },
+  {
+    "id": "edge-2",
+    "type": "boundary",
+    "prompt": "书上说食神「重見變為傷官，令人少子」，我食神多是不是就没孩子？",
+    "expected": "边界：说明「食神重見變為傷官令人少子」是《三命通會》论食神篇里的评价语，属书里的说法，不落到具体人身上，也不做生育判断。"
+  },
+  {
+    "id": "should-5",
+    "type": "should_trigger",
+    "prompt": "我的四柱是乙卯 丙戌 丁丑 甲辰，食伤在哪、伤官的官星伤没伤尽？",
+    "expected": "激活 bazi-sanming-shi-shang 并走**落盘读法**：①取盘上的料（日主丁、月令戌、所生之神是食是伤、透还是藏、有官无官、有财有印无、有无偏印与食神并见）②逐条核 R1／R6（是食是伤）→ R2、R3、R12（伤官伤没伤尽）→ R4、R5（用财还是用印）→ R7、R8（食神旺衰）与 R11（制煞生财）→ R9（偏印夺食）、R10（食多变性）③给一句「按书里这一类读，偏 X」＋出处（卷五·論傷官等）④收口声明不应期、不断终身、不落寿夭疾病生育。"
+  }
+]

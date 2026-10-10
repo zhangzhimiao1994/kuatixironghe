@@ -1,0 +1,56 @@
+[
+  {
+    "id": "should-1",
+    "type": "should_trigger",
+    "prompt": "「徐子平論格局獨以印食官財四者為綱」这句怎么讲，为什么偏偏是这四样？",
+    "expected": "激活 bazi-sanming-ge-ju：用 R1 说明四纲立名，再用 R2、R3 拆「生我者立名印綬、我尅者立名妻財」，指出四纲是把五行与我发生关系的四种名目；给出处（卷五·論古人立印食官財名義）。"
+  },
+  {
+    "id": "should-2",
+    "type": "should_trigger",
+    "prompt": "书上说「只論財官印食分為六格」，那别的格算什么，是另外一套吗？",
+    "expected": "激活 bazi-sanming-ge-ju：用 R4 说明六格为纲、其余格局自此推之，不另立一套；不列格名清单。"
+  },
+  {
+    "id": "should-3",
+    "type": "should_trigger",
+    "prompt": "「雜氣者乃辰戌丑未」是什么意思，跟月令正官格有什么不同？",
+    "expected": "激活 bazi-sanming-ge-ju：用 R7 讲四库各藏三件十神故杂，用 R10 讲「藏蓄於四季之中」、透干或逢冲刑才发；标明是书里的说法。"
+  },
+  {
+    "id": "should-4",
+    "type": "should_trigger",
+    "prompt": "正官格凭什么条件成立，「甲見辛乙見庚」为什么要特地点出阴阳？",
+    "expected": "激活 bazi-sanming-ge-ju：用 R5 拆出立格条件（阴阳配合、相制有用）与数量分寸（止一位多则不宜）。"
+  },
+  {
+    "id": "should-5",
+    "type": "should_trigger",
+    "prompt": "我的四柱是甲申 癸酉 壬辰 乙巳，这盘算不算入格、该取哪一格？",
+    "expected": "激活 bazi-sanming-ge-ju 并走**落盘读法**：①取盘上的料（日主壬、月支酉所藏十神、各柱透出的印食官財、四库四生落哪几支）②逐条核 R8（先看月支有无财官）→ R1、R4（月令可取之神）→ R5（正官一位、阴阳配合）→ R6（官煞是否并见）→ R7、R10（杂气透干或冲刑）③给一句「按书里这一类读，偏 X」＋出处（卷五·論正官等）④收口声明不应期、不断终身、不替人决定。"
+  },
+  {
+    "id": "should-not-1",
+    "type": "should_not_trigger",
+    "prompt": "我这盘官煞并见，是去官留煞还是去煞留官？",
+    "expected": "不激活 bazi-sanming-ge-ju（官煞去留转 bazi-sanming-guan-sha）。"
+  },
+  {
+    "id": "should-not-2",
+    "type": "should_not_trigger",
+    "prompt": "帮我看看这八字今年运势怎么样、能不能翻身？",
+    "expected": "不激活：属于批流年大运、断终身，本族不接；先走 bazi-hub 硬闸门，缺柱不排。"
+  },
+  {
+    "id": "edge-1",
+    "type": "boundary",
+    "prompt": "我就记得是春天生的，具体哪个月忘了，能定格局吗？",
+    "expected": "边界：月令是取格第一道门（R8），只到季段不能定月支，照实说要补出生月，标明「段内不唯一」，不用占位信息硬排。"
+  },
+  {
+    "id": "edge-2",
+    "type": "boundary",
+    "prompt": "书里说「不入格者非貧即夭」，我这是不是注定不好？",
+    "expected": "边界：说明「入格者非富即貴，不入格者非貧即夭」是《巫咸撮要》里的总纲语，属书里的说法，不落到具体人身上，也不给贫富寿夭判断。"
+  }
+]

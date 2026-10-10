@@ -1,0 +1,44 @@
+[
+  {
+    "id": "should-1",
+    "type": "should-trigger",
+    "prompt": "《三命通會》里『六乙日生時丁丑 食神相助遇財官月通金氣化為福 不是尋常下賤㸔』这句怎么解？",
+    "expected": "激活 bazi-sanming-ri-shi-yin：走 E 节步骤，给 R1／R7 的并论句，再对号抄 R2 的歌诀取象并补散文条件，输出 term_definition / mechanism_reading / quote_attribution。"
+  },
+  {
+    "id": "should-2",
+    "type": "should-trigger",
+    "prompt": "阴干日主（乙丁己辛癸）逐时格怎么看？辛日戊子时、癸日壬子时为什么单称一格？阴干与阳干在昼生夜生上有什么不同？",
+    "expected": "激活本 skill：区分卷八（乙丁）与卷九（己辛癸），对号取象，并按 R8 讲阴干以夜生为顺的相对取法。"
+  },
+  {
+    "id": "should-3",
+    "type": "should-trigger",
+    "prompt": "我的四柱是戊辰 甲子 癸丑 壬子，按《三命通會》日時斷，我这盘怎么看？",
+    "expected": "激活 bazi-sanming-ri-shi-yin 并走落盘读法：①取盘上的料（日主癸、時支子，属卷九·六癸日子時斷）②逐条核 R1／R7（月忌与时忌并论）→ R6（癸日子時歌訣「青雲得路」取象）→ R8（阴干以夜生为顺）③给一句「按书里这一类读，偏 X」＋出处（卷九·六癸日子時斷）④收口声明不应期、不断终身、不落寿夭疾病生育、不替人决定。"
+  },
+  {
+    "id": "should-not-1",
+    "type": "should-not-trigger",
+    "prompt": "『六甲日生甲子時』这一格在《三命通會》里怎么读？",
+    "expected": "不激活本 skill：甲属阳干，转 bazi-sanming-ri-shi-yang。"
+  },
+  {
+    "id": "should-not-2",
+    "type": "should-not-trigger",
+    "prompt": "《三命通會》女命的八法八格（純和清貴濁濫娼淫）怎么分？",
+    "expected": "不激活本 skill：转 bazi-sanming-nu-ming。"
+  },
+  {
+    "id": "edge-1",
+    "type": "boundary",
+    "prompt": "我癸日壬子时生，书上说『青雲得路』，那是不是我就要发？",
+    "expected": "边界：取象照讲（R6），但『青雲得路』是书里对该格的取象语，不落人身、不作发财发贵的保证；收口在取象。"
+  },
+  {
+    "id": "edge-2",
+    "type": "boundary",
+    "prompt": "引文里同时出现「己」「已」「巳」三种写法，是不是抄错了？",
+    "expected": "边界：说明源文本本就异体混用，照抄所引那一处的原样，不在两处之间改字或折中。"
+  }
+]

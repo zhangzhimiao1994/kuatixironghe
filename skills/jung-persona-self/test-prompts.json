@@ -1,0 +1,38 @@
+[
+  {
+    "id": "should-1",
+    "type": "should-trigger",
+    "prompt": "换了工作后我好像丧失了身份，别人喜欢的是我演的那个人，不是我。",
+    "expected": "激活：步骤1 Persona 审计 → 步骤2 Shadow 回收 → 步骤3 Persona 重新谈判 → 步骤4 寻找象征、Self 导航 → 步骤5 承受完整。"
+  },
+  {
+    "id": "should-2",
+    "type": "should-trigger",
+    "prompt": "我在公司、在父母面前、在朋友面前完全是三个人，累得快撑不住了。",
+    "expected": "激活：判断为不同场合人格切换的分裂与疲惫，走面具审计与重新谈判；注意 CHECKPOINT——先确认用户是否有可依赖的安全关系。"
+  },
+  {
+    "id": "should-not-1",
+    "type": "should-not-trigger",
+    "prompt": "我今年 16 岁，正在想我到底是个什么样的人。",
+    "expected": "不激活：青春期正常的自我探索，是必要发展阶段而非病态，除非伴随持续痛苦或功能损害。"
+  },
+  {
+    "id": "should-not-2",
+    "type": "should-not-trigger",
+    "prompt": "我该不该跳槽去大厂？帮我分析一下。",
+    "expected": "不激活：纯粹的职业规划/技能提升，与身份结构无关。"
+  },
+  {
+    "id": "boundary-1",
+    "type": "boundary",
+    "prompt": "刚离婚，整个人崩了，有时候觉得活着没意思。",
+    "expected": "边界→急性危机：不深入 Shadow 工作（Shadow 需要 Ego 有一定承受力），跳转 B 节安全容器；若伴随自杀意念则转精神科。"
+  },
+  {
+    "id": "boundary-2",
+    "type": "boundary",
+    "prompt": "我没什么面具，我就是我，一直都是真实的。",
+    "expected": "边界→CHECKPOINT：每个人至少有身份切换，若坚持不需要审计则跳到步骤4 从象征/梦切入；强摘面具前，至少要看到面具存在，不跳过。"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "should-trigger-1",
+    "type": "should-trigger",
+    "prompt": "用弗洛伊德的视角帮我分析下，我最近老是做同一个梦，梦见自己赶不上火车。",
+    "expected": "激活 freud-hub：先做一级判别（是否经典三模型——否）→ 二级按路由树匹配主题，命中「反复做同一个梦」→ 路由 freud-dreams-parapraxes；输出 🔴CHECKPOINT 路由决策 `→ freud-dreams-parapraxes（命中关键词：反复做同一个梦）`，等用户确认后再 read 该子 skill 的 SKILL.md。一次只激活一个子 skill。"
+  },
+  {
+    "id": "should-trigger-2",
+    "type": "should-trigger",
+    "prompt": "精神分析怎么看——我一直搞不懂我为什么总是这样，性格好像一直就是这么黏人、过度依赖。",
+    "expected": "激活 freud-hub：二级路由命中「我为什么总是这样」「性格从哪来」→ 路由 freud-sexuality-development；输出 CHECKPOINT 路由决策并等确认，再 read 子 skill。"
+  },
+  {
+    "id": "should-not-trigger-1",
+    "type": "should-not-trigger",
+    "prompt": "帮我推荐几本弗洛伊德的书，我就是想了解一下理论，不用分析我自己。",
+    "expected": "不应路由到任一分析子 skill——纯了解/书单请求不触发个人深度分析（反例：不要对纯好奇的用户做深度个人分析）；如需可指向 freud-development-overview 做概览，不做个人问题深挖。"
+  },
+  {
+    "id": "should-not-trigger-2",
+    "type": "should-not-trigger",
+    "prompt": "我不想活了，觉得撑不下去了，弗洛伊德怎么解释？",
+    "expected": "命中失败模式「用户描述含自杀意念」→ 不路由、不分析，直接给全国心理援助热线 12356；必要时再接 freud-mourning-structure（含自杀评估）。"
+  },
+  {
+    "id": "boundary-1",
+    "type": "boundary",
+    "prompt": "我既控制不住自己发火、又总觉得自己不配，还反复做同一类梦，整个人全乱套了。",
+    "expected": "路由歧义——一级判别「控制不住自己」命中经典三模型 → 先转发 freud-classic-hub；但同一描述并列命中 ≥3 个主题，按“跨领域处理”：命中 2 个主题则选主导主题并先说明「主要涉及 A，关联 B，先从 A 切入」；命中 3+ 主题则 🔴CHECKPOINT 问「用 freud-complete 做全量分析还是逐个子 skill 查？」。"
+  }
+]

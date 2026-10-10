@@ -1,0 +1,38 @@
+[
+  {
+    "id": "should-1",
+    "type": "should-trigger",
+    "prompt": "我不知道该怎么办，感觉一直在原地打转，想出来的方案都不满意。",
+    "expected": "激活：走 Step1 写下初始问题定义 → Step2 识别触发因素 → Step3 挑战约束条件 → Step4 至少 3 种重新表述 → Step5 确定范围；每个 CHECKPOINT 向用户确认。"
+  },
+  {
+    "id": "should-2",
+    "type": "should-trigger",
+    "prompt": "老板让我自己做个决定，但我总觉得这不是我真正要解的问题。",
+    "expected": "激活：重点走 Step2 + CHECKPOINT 1 检测「被强加的问题」；若「没人要求你还会考虑吗」答案为「不会」，则真正的问题可能是如何应对这个要求本身。"
+  },
+  {
+    "id": "should-not-1",
+    "type": "should-not-trigger",
+    "prompt": "这个 Excel 公式怎么写？",
+    "expected": "不激活：纯事实查询/明确问题，直接回答。"
+  },
+  {
+    "id": "should-not-2",
+    "type": "should-not-trigger",
+    "prompt": "我的问题已经定义清楚了，就帮我把三个方案对比一下。",
+    "expected": "不激活：问题已被清晰定义、只需执行分析，进入 `proact-framework` 的后续步骤即可。"
+  },
+  {
+    "id": "boundary-1",
+    "type": "boundary",
+    "prompt": "我又改了一版问题定义，可还是觉得不对。",
+    "expected": "边界→失败编码表：暂停重新定义，问「不管你最终决定什么，什么是你现在最焦虑的？」，从焦虑点反推；仍失败则接受当前定义、标注「可能不完整」先往下走。"
+  },
+  {
+    "id": "boundary-2",
+    "type": "boundary",
+    "prompt": "想着想着，我的问题就变成了「我该如何过我的人生」。",
+    "expected": "边界→问题定义太宽：加一个时间约束「在未来 [时间窗口] 内、关于 [具体领域] 的决定」；若用户坚持宽范围，则拆成多个子决策、先做第一个。"
+  }
+]

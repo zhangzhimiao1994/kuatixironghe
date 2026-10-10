@@ -1,0 +1,114 @@
+{
+ "A01": {
+  "skill": "kanyu-xieji-yong-shi",
+  "src": "kanyu-xieji-yong-shi__1.md"
+ },
+ "A02": {
+  "skill": "kanyu-yilong-xia",
+  "src": "kanyu-yilong-xia__2.md"
+ },
+ "A03": {
+  "skill": "kanyu-xieji-yi-ji",
+  "src": "kanyu-xieji-yi-ji__1.md"
+ },
+ "A04": {
+  "skill": "kanyu-zangshu-cheng-shengqi",
+  "src": "kanyu-zangshu-cheng-shengqi__2.md"
+ },
+ "A05": {
+  "skill": "kanyu-zangshu-cang-feng-de-shui",
+  "src": "kanyu-zangshu-cang-feng-de-shui__2.md"
+ },
+ "A06": {
+  "skill": "kanyu-zangshu-xing-shi-pin-lei",
+  "src": "kanyu-zangshu-xing-shi-pin-lei__1.md"
+ },
+ "A07": {
+  "skill": "zhouyi",
+  "src": "zhouyi__1.md"
+ },
+ "A08": {
+  "skill": "kanyu-yilong-shi-wen",
+  "src": "kanyu-yilong-shi-wen__2.md"
+ },
+ "A09": {
+  "skill": "kanyu-zangshu-zhi-long-bian",
+  "src": "kanyu-zangshu-zhi-long-bian__1.md"
+ },
+ "A10": {
+  "skill": "kanyu-zangshu-xing-shi-pin-lei",
+  "src": "kanyu-zangshu-xing-shi-pin-lei__2.md"
+ },
+ "A11": {
+  "skill": "kanyu-xieji-yi-ji",
+  "src": "kanyu-xieji-yi-ji__2.md"
+ },
+ "A12": {
+  "skill": "kanyu-yilong-xia",
+  "src": "kanyu-yilong-xia__1.md"
+ },
+ "A13": {
+  "skill": "kanyu-hanlong-jiu-xing",
+  "src": "kanyu-hanlong-jiu-xing__2.md"
+ },
+ "A14": {
+  "skill": "kanyu-zangshu-cang-feng-de-shui",
+  "src": "kanyu-zangshu-cang-feng-de-shui__1.md"
+ },
+ "A15": {
+  "skill": "cross-system-hub",
+  "src": "cross-system-hub__1.md"
+ },
+ "A16": {
+  "skill": "kanyu-zangshu-zhi-long-bian",
+  "src": "kanyu-zangshu-zhi-long-bian__2.md"
+ },
+ "A17": {
+  "skill": "kanyu-dao-zhang-shi-er-fa",
+  "src": "kanyu-dao-zhang-shi-er-fa__2.md"
+ },
+ "A18": {
+  "skill": "kanyu-xieji-yong-shi",
+  "src": "kanyu-xieji-yong-shi__2.md"
+ },
+ "A19": {
+  "skill": "kanyu-zangshu-cheng-shengqi",
+  "src": "kanyu-zangshu-cheng-shengqi__1.md"
+ },
+ "A20": {
+  "skill": "zhouyi",
+  "src": "zhouyi__2.md"
+ },
+ "A21": {
+  "skill": "kanyu-hub",
+  "src": "kanyu-hub__1.md"
+ },
+ "A22": {
+  "skill": "kanyu-dao-zhang-shi-er-fa",
+  "src": "kanyu-dao-zhang-shi-er-fa__1.md"
+ },
+ "A23": {
+  "skill": "kanyu-xieji-bian-e",
+  "src": "kanyu-xieji-bian-e__1.md"
+ },
+ "A24": {
+  "skill": "kanyu-hanlong-jiu-xing",
+  "src": "kanyu-hanlong-jiu-xing__1.md"
+ },
+ "A25": {
+  "skill": "kanyu-hub",
+  "src": "kanyu-hub__2.md"
+ },
+ "A26": {
+  "skill": "kanyu-yilong-shi-wen",
+  "src": "kanyu-yilong-shi-wen__1.md"
+ },
+ "A27": {
+  "skill": "cross-system-hub",
+  "src": "cross-system-hub__2.md"
+ },
+ "A28": {
+  "skill": "kanyu-xieji-bian-e",
+  "src": "kanyu-xieji-bian-e__2.md"
+ }
+}

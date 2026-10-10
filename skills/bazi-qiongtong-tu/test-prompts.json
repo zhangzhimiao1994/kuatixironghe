@@ -1,0 +1,44 @@
+[
+  {
+    "id": "should-1",
+    "type": "should_trigger",
+    "prompt": "戊土日主生在七月，书上说先丙后癸、甲木次之，帮我看这一盘该取哪几个字？",
+    "expected": "激活 bazi-qiongtong-tu：确认日主戊土、月令七月，照《窮通寶鑑》論戊土·七月戊土给出「先丙后癸，甲木次之」，并看丙癸甲各自透干还是藏支；同时给出处与取用条件。"
+  },
+  {
+    "id": "should-2",
+    "type": "should_trigger",
+    "prompt": "「三春戊土，无丙照暖，戊土不生」这句话到底在讲什么？",
+    "expected": "激活 bazi-qiongtong-tu：用 R1 拆出丙主暖、甲主疏、癸主润三件事，说明三者缺一断一条路。"
+  },
+  {
+    "id": "should-3",
+    "type": "should_trigger",
+    "prompt": "己土日主生在酉月，三秋己土写「先癸后丙」，可我癸藏支，这样还算数吗？",
+    "expected": "激活 bazi-qiongtong-tu：照《窮通寶鑑》論己土·三秋己土与总纲「先癸后丙，取辛辅癸」两条并列，再按透藏轻重读，不替用户拍板。"
+  },
+  {
+    "id": "should-not-1",
+    "type": "should_not_trigger",
+    "prompt": "庚金日主生在正月，书上说先丙暖庚性、须甲疏洩，我该取谁？",
+    "expected": "不激活 bazi-qiongtong-tu（日主是庚金，转 bazi-qiongtong-jin 篇）。"
+  },
+  {
+    "id": "should-not-2",
+    "type": "should_not_trigger",
+    "prompt": "帮我看一下八字，我这两年事业运怎么样，什么时候能翻身？",
+    "expected": "不激活本 skill：属于批流年大运、断终身，本族不接；先走 bazi-hub 硬闸门，缺柱不排。"
+  },
+  {
+    "id": "edge-1",
+    "type": "boundary",
+    "prompt": "我戊土日主，只知道是秋天生的，没记住具体哪个月，能取用吗？",
+    "expected": "边界：只给季段没有月份，先按三秋戊土整段给次序（七月先丙后癸、八月先丙后癸、九月先甲后癸），标明「段内不唯一」，追问要哪个月才能收窄。"
+  },
+  {
+    "id": "edge-2",
+    "type": "boundary",
+    "prompt": "书上说「土逢季月见金多，终为贵论」，那我是不是一定富贵？",
+    "expected": "边界：说明这是书里的评价语（《窮通寶鑑》论四季月之土），只当书里的读法讲，不给「一定富贵」的承诺。"
+  }
+]

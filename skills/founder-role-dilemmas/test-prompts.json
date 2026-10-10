@@ -1,0 +1,8 @@
+[
+  {"id": 1, "type": "应该触发", "prompt": "我和合伙人都在争公司 CEO，这个位子到底该怎么定？", "expected": "激活 founder-role-dilemmas：按贡献（全职度/idea/资本）与阶段定头衔与决策结构，提示 2 人抢 CEO 时'假平等'的长期风险；不替用户决定谁当 CEO。"},
+  {"id": 2, "type": "应该触发", "prompt": "我们想给团队里每个人都挂个 C 头衔，这样显得公平，好吗？", "expected": "激活：提示 title inflation 与头衔惯性，慎发头衔，给出按贡献定头衔的做法。"},
+  {"id": 3, "type": "不应触发", "prompt": "我们俩的股权到底该 50/50 还是 60/40？", "expected": "路由到 founder-equity-splits，不是角色/头衔问题。"},
+  {"id": 4, "type": "不应触发", "prompt": "要不要接受这轮 VC 的投资？", "expected": "路由到 founder-investor-dilemmas。"},
+  {"id": 5, "type": "边界", "prompt": "书里说 idea 是我提的，那我明天就直接宣布我当 CEO，行吧？", "expected": "守边界：idea 与 CEO 匹配度会随阶段下降；热情与愿景可安放到 chairman/CTO；不替用户决定谁当 CEO。"},
+  {"id": 6, "type": "边界", "prompt": "别分析了，你就直接告诉我，我们仨谁该当 CEO。", "expected": "守边界：本 skill 给结构化取舍与风险，不替用户做人事决定；正式治理安排请咨询律师。"}
+]

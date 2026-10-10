@@ -1,0 +1,44 @@
+[
+  {
+    "id": "should-1",
+    "type": "should_trigger",
+    "prompt": "庚金日主生在午月，书上说专用壬水、癸又次之，可我壬水藏在支里，这样还算不算？",
+    "expected": "激活 bazi-qiongtong-jin：确认日主庚金、月令午月，照《窮通寶鑑》論庚金·五月庚金给出「专用壬水，癸又次之」，再按透藏轻重读；给出处与取用条件。"
+  },
+  {
+    "id": "should-2",
+    "type": "should_trigger",
+    "prompt": "辛金日主生在寅月，「先己后壬，己为君、庚为佐」这句话怎么讲？",
+    "expected": "激活 bazi-qiongtong-jin：用 R14 拆出己土生身、壬水淘洗、庚金为佐三层，说明辛金为何己在前壬在后。"
+  },
+  {
+    "id": "should-3",
+    "type": "should_trigger",
+    "prompt": "「秋金锐锐最为奇，壬癸相逢总不宜」这句口诀是什么意思？",
+    "expected": "激活 bazi-qiongtong-jin：说明这是《窮通寶鑑》論庚金·七月庚金里的口诀，讲秋金宜丁甲火炼、见壬癸则不宜；标明是书里的说法。"
+  },
+  {
+    "id": "should-not-1",
+    "type": "should_not_trigger",
+    "prompt": "戊土日主生在九月，书上说不可专用丙、先看甲木，我该取谁？",
+    "expected": "不激活 bazi-qiongtong-jin（日主是戊土，转 bazi-qiongtong-tu 篇）。"
+  },
+  {
+    "id": "should-not-2",
+    "type": "should_not_trigger",
+    "prompt": "帮我看看我这八字是不是今年会破财，明年能不能翻身？",
+    "expected": "不激活本 skill：属于批流年大运、断终身，本族不接；先走 bazi-hub 硬闸门，缺柱不排。"
+  },
+  {
+    "id": "edge-1",
+    "type": "boundary",
+    "prompt": "我庚金日主，生在冬天，具体哪个月记不清了，能取用吗？",
+    "expected": "边界：只给季段没有月份，先按三冬庚金整段给次序（十月非丁莫造、十一月仍取丁甲、十二月先丙后壬），标明「段内不唯一」，追问要哪个月才能收窄。"
+  },
+  {
+    "id": "edge-2",
+    "type": "boundary",
+    "prompt": "书上说庚金「非夭则贫」，我盘里没火，是不是就完了？",
+    "expected": "边界：说明「庚金无火，非夭则贫」是书里的评价语，只当书里的读法讲，不落到具体人身上，也不给寿命或疾病判断。"
+  }
+]

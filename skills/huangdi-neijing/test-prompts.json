@@ -1,0 +1,44 @@
+[
+  {
+    "id": "should-1",
+    "type": "should-trigger",
+    "prompt": "换季了，我整个人特别累，睡眠也乱，身体像被掏空了一样。",
+    "expected": "路由型：激活并按触发场景路由到 `../seasonal-regimen/`（换季了身体不对劲）或 `../yin-yang-balance/`（感觉整个人被掏空了）；先过 CHECKPOINT 向用户确认路由方向，路由未确认前不输出行动方案。"
+  },
+  {
+    "id": "should-2",
+    "type": "should-trigger",
+    "prompt": "我最近一直焦虑，身体也跟着不舒服，是不是身心在互相影响？",
+    "expected": "路由型：路由到 `../emotion-organ-proxy/`（情绪-脏腑代理）；按「身心联动」原则可能组合多个子 skill，并指明先从哪个切入。"
+  },
+  {
+    "id": "should-not-1",
+    "type": "should-not-trigger",
+    "prompt": "我的 nginx 起不来了，帮我看看报错日志。",
+    "expected": "不应路由：命中 NOT trigger（纯技术故障），直接调试，不激活本系统。"
+  },
+  {
+    "id": "should-not-2",
+    "type": "should-not-trigger",
+    "prompt": "今天天气怎么样？",
+    "expected": "不应路由：单一事实查询，直接回答；且不属身体/情绪/季节/饮食范围。"
+  },
+  {
+    "id": "boundary-1",
+    "type": "boundary",
+    "prompt": "我自己也说不清，就是觉得哪儿都不对。",
+    "expected": "边界（无匹配）：先追问一句，请用户补上最困扰的一两个信号；仍无匹配就说明本系统不覆盖，按反例清单直接回答；处理完仍要回到 CHECKPOINT 再确认。"
+  },
+  {
+    "id": "boundary-2",
+    "type": "boundary",
+    "prompt": "我胸口闷、总叹气又容易上火，这到底算情绪问题还是身体问题？",
+    "expected": "边界（两个都像）：同时命中两个子 skill 触发场景时，把两个方向各自的理由说清、请用户选更贴近的；若确实交织则按「身心联动」组合使用并指明切入顺序；路由未确认前不给方案。"
+  },
+  {
+    "id": "boundary-3",
+    "type": "boundary",
+    "prompt": "你说我这是「五味调和」，可我觉得我根本不是想吃某个味道，是整个人卡住了。",
+    "expected": "边界（命中后发现不适用/用户否认路由）：停下当前子 skill，回到路由重新匹配（如 `../bottleneck-unblock/`），或改走组合，不硬套。"
+  }
+]

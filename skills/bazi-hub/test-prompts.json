@@ -1,0 +1,38 @@
+[
+  {
+    "id": "should-1",
+    "type": "should-trigger",
+    "prompt": "帮我排一下八字，2004 年 9 月 10 日上午 11 点，河北沧州。",
+    "expected": "激活 bazi-hub：先过硬闸门（显式词「八字」），再走 E 节步骤——要齐四柱、取可核材料（日主/月令/十神/五行/真太阳时）、按问题路由到对应子 skill，最后给 perspective / insight / action。"
+  },
+  {
+    "id": "should-2",
+    "type": "should-trigger",
+    "prompt": "什么叫用神？滴天髓里是怎么说的。",
+    "expected": "激活 bazi-hub（术语问句算显式）：路由到 bazi-ditian-gang-ling 与 bazi-ditian-jing-shen-wang-shuai，逐条给原文并标經文／原注／任注。"
+  },
+  {
+    "id": "should-not-1",
+    "type": "should-not-trigger",
+    "prompt": "我生日是 2004 年 9 月 10 日，最近工作挺累的。",
+    "expected": "不激活本维度（泛化词「生日」+ 工作压力，未显式要看八字）——本维度整行不显示，不推测。"
+  },
+  {
+    "id": "should-not-2",
+    "type": "should-not-trigger",
+    "prompt": "帮我看看我明年能不能升职，用八字推一下。",
+    "expected": "过闸门但守边界：明说不批流年大运；只给可核材料与按书里读的倾向，并把问题引回可自主行动的部分。"
+  },
+  {
+    "id": "boundary-1",
+    "type": "boundary",
+    "prompt": "我 2004 年 9 月 10 日上午 11 点在成都出生，帮我看看四柱。",
+    "expected": "过闸门（显式词「四柱」）。但 11:00 恰压在巳/午时辰界上、且成都经度偏西——并列给出钟表时间与真太阳时两个时柱、说明时辰翻转点，请用户核对记录时间，不硬取一个。"
+  },
+  {
+    "id": "boundary-2",
+    "type": "boundary",
+    "prompt": "我只知道自己是辰时生的，帮我看看我这命怎么样。",
+    "expected": "过闸门，但时刻只到时段：时柱按辰时整体给并标「时段内不唯一」；「命怎么样」这类断语不接，退回读法层面的倾向。"
+  }
+]

@@ -1,0 +1,88 @@
+{
+ "zangshu": {
+  "title": "葬書_郭璞",
+  "path": "sources/zangshu.txt",
+  "chars": 18428,
+  "lines": 339,
+  "sha256": "deab4c5ff3f6a946"
+ },
+ "hanlongjing": {
+  "title": "撼龍經疑龍經_楊筠松",
+  "path": "sources/hanlongjing.txt",
+  "chars": 26125,
+  "lines": 192,
+  "sha256": "c6297f3d957a8e8d"
+ },
+ "yilongjing": {
+  "title": "疑龍經_楊筠松",
+  "path": "sources/yilongjing.txt",
+  "chars": 10453,
+  "lines": 101,
+  "sha256": "cf95e683740cbbb0"
+ },
+ "xieji": {
+  "title": "欽定協紀辨方書_四庫全書本",
+  "path": "sources/xieji.txt",
+  "chars": 528242,
+  "lines": 13791,
+  "sha256": "d779c1e3ff945ffe"
+ },
+ "books": [
+  {
+   "slug": "sanmingtonghui",
+   "title": "三命通会",
+   "edition": "三命通会_四库全书本（四庫全書本・維基文庫）",
+   "file": "sanmingtonghui.txt",
+   "chars": 937271,
+   "source_document": "doc_b624521ae7cd_三命通会_四库全书本.epub"
+  },
+  {
+   "slug": "ditianxu",
+   "title": "滴天髓闡微",
+   "edition": "滴天髓闡微（任鐵樵注・維基文庫）",
+   "file": "ditianxu.txt",
+   "chars": 136160,
+   "source_document": "doc_b3b388a30dba_滴天髓阐微_维基文库.epub"
+  },
+  {
+   "slug": "qiongtongbaojian",
+   "title": "窮通寶鑑",
+   "edition": "窮通寶鑑（欄江網系・維基文庫）",
+   "file": "qiongtongbaojian.txt",
+   "chars": 32959,
+   "source_document": "doc_5d1c70860019_穷通宝鉴_维基文库.epub"
+  },
+  {
+   "slug": "zipingzhenquan",
+   "title": "子平真詮",
+   "edition": "清沈孝瞻撰（前二十九篇 + 後二十九至四十八篇；epub 為本、另附 docx 一份作互校）",
+   "file": "zipingzhenquan.txt",
+   "chars": 34929,
+   "source_document": "子平真诠_沈孝瞻_前二十九篇.epub + 子平真诠_后半_二十九至四十八.epub（docx 互校）"
+  },
+  {
+   "slug": "zhouyi-jing",
+   "title": "周易（經文）",
+   "edition": "維基文庫本（六十四卦經文；另附速查表、上下經卦名次序、分宮卦象次序表、序卦、雜卦）",
+   "source_document": "周易_维基文库.epub",
+   "file": "zhouyi-jing.txt",
+   "chars": 49340
+  },
+  {
+   "slug": "zhouyi-benyi",
+   "title": "周易本義",
+   "edition": "宋朱熹撰，四庫全書本（經文＋本義注；十翼具）",
+   "source_document": "周易本义_朱熹_四库全书本.epub",
+   "file": "zhouyi-benyi.txt",
+   "chars": 149123
+  },
+  {
+   "slug": "zhouyi-zhengyi",
+   "title": "周易正義",
+   "edition": "唐孔穎達等奉敕撰（十三經注疏本；經＋王弼注＋孔疏；十翼具）",
+   "source_document": "周易正义_孔颖达.epub",
+   "file": "zhouyi-zhengyi.txt",
+   "chars": 299553
+  }
+ ]
+}

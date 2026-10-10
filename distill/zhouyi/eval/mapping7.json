@@ -1,0 +1,602 @@
+{
+ "G001": {
+  "src": "reversal-cycle__1.md",
+  "slot": "answers",
+  "skill": "reversal-cycle",
+  "group": "zhouyi"
+ },
+ "G002": {
+  "src": "zhouyi-shuogua-xugua-zagua__1.md",
+  "slot": "answers",
+  "skill": "zhouyi-shuogua-xugua-zagua",
+  "group": "zhouyi"
+ },
+ "G003": {
+  "src": "bazi-hub__1.md",
+  "slot": "answers7",
+  "skill": "bazi-hub",
+  "group": "bazi"
+ },
+ "G004": {
+  "src": "kanyu-dao-zhang-shi-er-fa__1.md",
+  "slot": "answers7",
+  "skill": "kanyu-dao-zhang-shi-er-fa",
+  "group": "kanyu"
+ },
+ "G005": {
+  "src": "kanyu-hub__2.md",
+  "slot": "answers7",
+  "skill": "kanyu-hub",
+  "group": "kanyu"
+ },
+ "G006": {
+  "src": "zhouyi-jing-shang__2.md",
+  "slot": "answers",
+  "skill": "zhouyi-jing-shang",
+  "group": "zhouyi"
+ },
+ "G007": {
+  "src": "founder-cofounder-selection__1.md",
+  "slot": "answers6",
+  "skill": "founder-cofounder-selection",
+  "group": "old"
+ },
+ "G008": {
+  "src": "kanyu-yilong-xia__2.md",
+  "slot": "answers7",
+  "skill": "kanyu-yilong-xia",
+  "group": "kanyu"
+ },
+ "G009": {
+  "src": "bazi-sanming-na-yin__2.md",
+  "slot": "answers7",
+  "skill": "bazi-sanming-na-yin",
+  "group": "bazi"
+ },
+ "G010": {
+  "src": "zhouyi-wenyan-zhuan__1.md",
+  "slot": "answers",
+  "skill": "zhouyi-wenyan-zhuan",
+  "group": "zhouyi"
+ },
+ "G011": {
+  "src": "five-elements-network__2.md",
+  "slot": "answers6",
+  "skill": "five-elements-network",
+  "group": "old"
+ },
+ "G012": {
+  "src": "zhouyi-wenyan-zhuan__2.md",
+  "slot": "answers",
+  "skill": "zhouyi-wenyan-zhuan",
+  "group": "zhouyi"
+ },
+ "G013": {
+  "src": "zhouyi-shuogua-xugua-zagua__2.md",
+  "slot": "answers",
+  "skill": "zhouyi-shuogua-xugua-zagua",
+  "group": "zhouyi"
+ },
+ "G014": {
+  "src": "zhouyi-xiang-zhuan__1.md",
+  "slot": "answers",
+  "skill": "zhouyi-xiang-zhuan",
+  "group": "zhouyi"
+ },
+ "G015": {
+  "src": "kanyu-hanlong-jiu-xing__1.md",
+  "slot": "answers7",
+  "skill": "kanyu-hanlong-jiu-xing",
+  "group": "kanyu"
+ },
+ "G016": {
+  "src": "bazi-ziping-shi-shuo-zhi-jiu__1.md",
+  "slot": "answers7",
+  "skill": "bazi-ziping-shi-shuo-zhi-jiu",
+  "group": "bazi"
+ },
+ "G017": {
+  "src": "kanyu-yilong-shi-wen__1.md",
+  "slot": "answers7",
+  "skill": "kanyu-yilong-shi-wen",
+  "group": "kanyu"
+ },
+ "G018": {
+  "src": "bazi-sanming-di-zhi__2.md",
+  "slot": "answers7",
+  "skill": "bazi-sanming-di-zhi",
+  "group": "bazi"
+ },
+ "G019": {
+  "src": "hexagram-situation-diagnosis__2.md",
+  "slot": "answers",
+  "skill": "hexagram-situation-diagnosis",
+  "group": "zhouyi"
+ },
+ "G020": {
+  "src": "zhouyi-tuan-zhuan__1.md",
+  "slot": "answers",
+  "skill": "zhouyi-tuan-zhuan",
+  "group": "zhouyi"
+ },
+ "G021": {
+  "src": "bazi-ziping-yong-shen-zong-gang__1.md",
+  "slot": "answers7",
+  "skill": "bazi-ziping-yong-shen-zong-gang",
+  "group": "bazi"
+ },
+ "G022": {
+  "src": "deepwork-embrace-boredom__2.md",
+  "slot": "answers6",
+  "skill": "deepwork-embrace-boredom",
+  "group": "old"
+ },
+ "G023": {
+  "src": "attach-anxious-style__1.md",
+  "slot": "answers6",
+  "skill": "attach-anxious-style",
+  "group": "old"
+ },
+ "G024": {
+  "src": "bazi-ziping-shi-shuo-zhi-jiu__2.md",
+  "slot": "answers7",
+  "skill": "bazi-ziping-shi-shuo-zhi-jiu",
+  "group": "bazi"
+ },
+ "G025": {
+  "src": "kanyu-zangshu-xing-shi-pin-lei__1.md",
+  "slot": "answers7",
+  "skill": "kanyu-zangshu-xing-shi-pin-lei",
+  "group": "kanyu"
+ },
+ "G026": {
+  "src": "kanyu-zangshu-cheng-shengqi__1.md",
+  "slot": "answers7",
+  "skill": "kanyu-zangshu-cheng-shengqi",
+  "group": "kanyu"
+ },
+ "G027": {
+  "src": "bazi-qiongtong-tu__1.md",
+  "slot": "answers7",
+  "skill": "bazi-qiongtong-tu",
+  "group": "bazi"
+ },
+ "G028": {
+  "src": "zhouyi-xiang-zhuan__2.md",
+  "slot": "answers",
+  "skill": "zhouyi-xiang-zhuan",
+  "group": "zhouyi"
+ },
+ "G029": {
+  "src": "bazi-sanming-cai__2.md",
+  "slot": "answers7",
+  "skill": "bazi-sanming-cai",
+  "group": "bazi"
+ },
+ "G030": {
+  "src": "reversal-cycle__2.md",
+  "slot": "answers",
+  "skill": "reversal-cycle",
+  "group": "zhouyi"
+ },
+ "G031": {
+  "src": "hexagram-situation-diagnosis__1.md",
+  "slot": "answers",
+  "skill": "hexagram-situation-diagnosis",
+  "group": "zhouyi"
+ },
+ "G032": {
+  "src": "zhouyi-xici-shang__2.md",
+  "slot": "answers",
+  "skill": "zhouyi-xici-shang",
+  "group": "zhouyi"
+ },
+ "G033": {
+  "src": "bazi-ziping-yong-shen-zong-gang__2.md",
+  "slot": "answers7",
+  "skill": "bazi-ziping-yong-shen-zong-gang",
+  "group": "bazi"
+ },
+ "G034": {
+  "src": "eft-demon-dialogues__1.md",
+  "slot": "answers6",
+  "skill": "eft-demon-dialogues",
+  "group": "old"
+ },
+ "G035": {
+  "src": "auspicious-risk-language__2.md",
+  "slot": "answers",
+  "skill": "auspicious-risk-language",
+  "group": "zhouyi"
+ },
+ "G036": {
+  "src": "bazi-sanming-di-zhi__1.md",
+  "slot": "answers7",
+  "skill": "bazi-sanming-di-zhi",
+  "group": "bazi"
+ },
+ "G037": {
+  "src": "bazi-ditian-jing-shen-wang-shuai__2.md",
+  "slot": "answers7",
+  "skill": "bazi-ditian-jing-shen-wang-shuai",
+  "group": "bazi"
+ },
+ "G038": {
+  "src": "body-mind-integration__1.md",
+  "slot": "answers6",
+  "skill": "body-mind-integration",
+  "group": "old"
+ },
+ "G039": {
+  "src": "yin-yang-balance__1.md",
+  "slot": "answers6",
+  "skill": "yin-yang-balance",
+  "group": "old"
+ },
+ "G040": {
+  "src": "jung-shadow-evil__1.md",
+  "slot": "answers6",
+  "skill": "jung-shadow-evil",
+  "group": "old"
+ },
+ "G041": {
+  "src": "auspicious-risk-language__1.md",
+  "slot": "answers",
+  "skill": "auspicious-risk-language",
+  "group": "zhouyi"
+ },
+ "G042": {
+  "src": "even-swaps__2.md",
+  "slot": "answers6",
+  "skill": "even-swaps",
+  "group": "old"
+ },
+ "G043": {
+  "src": "founder-cofounder-selection__2.md",
+  "slot": "answers6",
+  "skill": "founder-cofounder-selection",
+  "group": "old"
+ },
+ "G044": {
+  "src": "bazi-sanming-na-yin__1.md",
+  "slot": "answers7",
+  "skill": "bazi-sanming-na-yin",
+  "group": "bazi"
+ },
+ "G045": {
+  "src": "ptolemy-nativity-framework__2.md",
+  "slot": "answers",
+  "skill": "ptolemy-nativity-framework",
+  "group": "old"
+ },
+ "G046": {
+  "src": "kanyu-dao-zhang-shi-er-fa__2.md",
+  "slot": "answers7",
+  "skill": "kanyu-dao-zhang-shi-er-fa",
+  "group": "kanyu"
+ },
+ "G047": {
+  "src": "ptolemy-nativity-framework__1.md",
+  "slot": "answers",
+  "skill": "ptolemy-nativity-framework",
+  "group": "old"
+ },
+ "G048": {
+  "src": "five-elements-network__1.md",
+  "slot": "answers6",
+  "skill": "five-elements-network",
+  "group": "old"
+ },
+ "G049": {
+  "src": "bazi-sanming-tian-gan__2.md",
+  "slot": "answers7",
+  "skill": "bazi-sanming-tian-gan",
+  "group": "bazi"
+ },
+ "G050": {
+  "src": "bazi-ditian-xing-qing-ji-bing__1.md",
+  "slot": "answers7",
+  "skill": "bazi-ditian-xing-qing-ji-bing",
+  "group": "bazi"
+ },
+ "G051": {
+  "src": "zhouyi__2.md",
+  "slot": "answers",
+  "skill": "zhouyi",
+  "group": "zhouyi"
+ },
+ "G052": {
+  "src": "zhouyi-xici-shang__1.md",
+  "slot": "answers",
+  "skill": "zhouyi-xici-shang",
+  "group": "zhouyi"
+ },
+ "G053": {
+  "src": "kanyu-zangshu-cheng-shengqi__2.md",
+  "slot": "answers7",
+  "skill": "kanyu-zangshu-cheng-shengqi",
+  "group": "kanyu"
+ },
+ "G054": {
+  "src": "eft-demon-dialogues__2.md",
+  "slot": "answers6",
+  "skill": "eft-demon-dialogues",
+  "group": "old"
+ },
+ "G055": {
+  "src": "kanyu-hub__1.md",
+  "slot": "answers7",
+  "skill": "kanyu-hub",
+  "group": "kanyu"
+ },
+ "G056": {
+  "src": "attach-avoidant-style__1.md",
+  "slot": "answers6",
+  "skill": "attach-avoidant-style",
+  "group": "old"
+ },
+ "G057": {
+  "src": "zhouyi-jing-xia__2.md",
+  "slot": "answers",
+  "skill": "zhouyi-jing-xia",
+  "group": "zhouyi"
+ },
+ "G058": {
+  "src": "jung-persona-self__2.md",
+  "slot": "answers6",
+  "skill": "jung-persona-self",
+  "group": "old"
+ },
+ "G059": {
+  "src": "jung-psychological-types__2.md",
+  "slot": "answers",
+  "skill": "jung-psychological-types",
+  "group": "old"
+ },
+ "G060": {
+  "src": "bazi-ditian-jing-shen-wang-shuai__1.md",
+  "slot": "answers7",
+  "skill": "bazi-ditian-jing-shen-wang-shuai",
+  "group": "bazi"
+ },
+ "G061": {
+  "src": "zhouyi__1.md",
+  "slot": "answers",
+  "skill": "zhouyi",
+  "group": "zhouyi"
+ },
+ "G062": {
+  "src": "attach-avoidant-style__2.md",
+  "slot": "answers6",
+  "skill": "attach-avoidant-style",
+  "group": "old"
+ },
+ "G063": {
+  "src": "kanyu-xieji-yong-shi__2.md",
+  "slot": "answers7",
+  "skill": "kanyu-xieji-yong-shi",
+  "group": "kanyu"
+ },
+ "G064": {
+  "src": "bazi-sanming-ri-shi-yin__1.md",
+  "slot": "answers7",
+  "skill": "bazi-sanming-ri-shi-yin",
+  "group": "bazi"
+ },
+ "G065": {
+  "src": "jung-persona-self__1.md",
+  "slot": "answers6",
+  "skill": "jung-persona-self",
+  "group": "old"
+ },
+ "G066": {
+  "src": "bazi-ziping-zheng-guan-cai__1.md",
+  "slot": "answers7",
+  "skill": "bazi-ziping-zheng-guan-cai",
+  "group": "bazi"
+ },
+ "G067": {
+  "src": "kanyu-xieji-bian-e__1.md",
+  "slot": "answers7",
+  "skill": "kanyu-xieji-bian-e",
+  "group": "kanyu"
+ },
+ "G068": {
+  "src": "deepwork-embrace-boredom__1.md",
+  "slot": "answers6",
+  "skill": "deepwork-embrace-boredom",
+  "group": "old"
+ },
+ "G069": {
+  "src": "bazi-ziping-zheng-guan-cai__2.md",
+  "slot": "answers7",
+  "skill": "bazi-ziping-zheng-guan-cai",
+  "group": "bazi"
+ },
+ "G070": {
+  "src": "kanyu-zangshu-cang-feng-de-shui__2.md",
+  "slot": "answers7",
+  "skill": "kanyu-zangshu-cang-feng-de-shui",
+  "group": "kanyu"
+ },
+ "G071": {
+  "src": "bazi-ditian-xing-qing-ji-bing__2.md",
+  "slot": "answers7",
+  "skill": "bazi-ditian-xing-qing-ji-bing",
+  "group": "bazi"
+ },
+ "G072": {
+  "src": "bazi-hub__2.md",
+  "slot": "answers7",
+  "skill": "bazi-hub",
+  "group": "bazi"
+ },
+ "G073": {
+  "src": "kanyu-zangshu-zhi-long-bian__1.md",
+  "slot": "answers7",
+  "skill": "kanyu-zangshu-zhi-long-bian",
+  "group": "kanyu"
+ },
+ "G074": {
+  "src": "yin-yang-balance__2.md",
+  "slot": "answers6",
+  "skill": "yin-yang-balance",
+  "group": "old"
+ },
+ "G075": {
+  "src": "kanyu-xieji-yong-shi__1.md",
+  "slot": "answers7",
+  "skill": "kanyu-xieji-yong-shi",
+  "group": "kanyu"
+ },
+ "G076": {
+  "src": "bazi-sanming-ri-shi-yin__2.md",
+  "slot": "answers7",
+  "skill": "bazi-sanming-ri-shi-yin",
+  "group": "bazi"
+ },
+ "G077": {
+  "src": "jung-psychological-types__1.md",
+  "slot": "answers",
+  "skill": "jung-psychological-types",
+  "group": "old"
+ },
+ "G078": {
+  "src": "bazi-sanming-cai__1.md",
+  "slot": "answers7",
+  "skill": "bazi-sanming-cai",
+  "group": "bazi"
+ },
+ "G079": {
+  "src": "kanyu-hanlong-jiu-xing__2.md",
+  "slot": "answers7",
+  "skill": "kanyu-hanlong-jiu-xing",
+  "group": "kanyu"
+ },
+ "G080": {
+  "src": "jung-shadow-evil__2.md",
+  "slot": "answers6",
+  "skill": "jung-shadow-evil",
+  "group": "old"
+ },
+ "G081": {
+  "src": "kanyu-yilong-xia__1.md",
+  "slot": "answers7",
+  "skill": "kanyu-yilong-xia",
+  "group": "kanyu"
+ },
+ "G082": {
+  "src": "even-swaps__1.md",
+  "slot": "answers6",
+  "skill": "even-swaps",
+  "group": "old"
+ },
+ "G083": {
+  "src": "forecast-calibrate-claim__2.md",
+  "slot": "answers6",
+  "skill": "forecast-calibrate-claim",
+  "group": "old"
+ },
+ "G084": {
+  "src": "kanyu-xieji-yi-ji__1.md",
+  "slot": "answers7",
+  "skill": "kanyu-xieji-yi-ji",
+  "group": "kanyu"
+ },
+ "G085": {
+  "src": "body-mind-integration__2.md",
+  "slot": "answers6",
+  "skill": "body-mind-integration",
+  "group": "old"
+ },
+ "G086": {
+  "src": "kanyu-zangshu-cang-feng-de-shui__1.md",
+  "slot": "answers7",
+  "skill": "kanyu-zangshu-cang-feng-de-shui",
+  "group": "kanyu"
+ },
+ "G087": {
+  "src": "kanyu-yilong-shi-wen__2.md",
+  "slot": "answers7",
+  "skill": "kanyu-yilong-shi-wen",
+  "group": "kanyu"
+ },
+ "G088": {
+  "src": "zhouyi-jing-xia__1.md",
+  "slot": "answers",
+  "skill": "zhouyi-jing-xia",
+  "group": "zhouyi"
+ },
+ "G089": {
+  "src": "attach-anxious-style__2.md",
+  "slot": "answers6",
+  "skill": "attach-anxious-style",
+  "group": "old"
+ },
+ "G090": {
+  "src": "kanyu-zangshu-xing-shi-pin-lei__2.md",
+  "slot": "answers7",
+  "skill": "kanyu-zangshu-xing-shi-pin-lei",
+  "group": "kanyu"
+ },
+ "G091": {
+  "src": "bazi-sanming-tian-gan__1.md",
+  "slot": "answers7",
+  "skill": "bazi-sanming-tian-gan",
+  "group": "bazi"
+ },
+ "G092": {
+  "src": "kanyu-xieji-bian-e__2.md",
+  "slot": "answers7",
+  "skill": "kanyu-xieji-bian-e",
+  "group": "kanyu"
+ },
+ "G093": {
+  "src": "kanyu-zangshu-zhi-long-bian__2.md",
+  "slot": "answers7",
+  "skill": "kanyu-zangshu-zhi-long-bian",
+  "group": "kanyu"
+ },
+ "G094": {
+  "src": "zhouyi-xici-xia__1.md",
+  "slot": "answers",
+  "skill": "zhouyi-xici-xia",
+  "group": "zhouyi"
+ },
+ "G095": {
+  "src": "zhouyi-jing-shang__1.md",
+  "slot": "answers",
+  "skill": "zhouyi-jing-shang",
+  "group": "zhouyi"
+ },
+ "G096": {
+  "src": "forecast-calibrate-claim__1.md",
+  "slot": "answers6",
+  "skill": "forecast-calibrate-claim",
+  "group": "old"
+ },
+ "G097": {
+  "src": "zhouyi-tuan-zhuan__2.md",
+  "slot": "answers",
+  "skill": "zhouyi-tuan-zhuan",
+  "group": "zhouyi"
+ },
+ "G098": {
+  "src": "bazi-qiongtong-tu__2.md",
+  "slot": "answers7",
+  "skill": "bazi-qiongtong-tu",
+  "group": "bazi"
+ },
+ "G099": {
+  "src": "zhouyi-zhu-shu-du-fa__1.md",
+  "slot": "answers",
+  "skill": "zhouyi-zhu-shu-du-fa",
+  "group": "zhouyi"
+ },
+ "G100": {
+  "src": "kanyu-xieji-yi-ji__2.md",
+  "slot": "answers7",
+  "skill": "kanyu-xieji-yi-ji",
+  "group": "kanyu"
+ }
+}

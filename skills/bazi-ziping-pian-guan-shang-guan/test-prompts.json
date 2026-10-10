@@ -1,0 +1,56 @@
+[
+  {
+    "id": "should-1",
+    "type": "should_trigger",
+    "prompt": "「煞以攻身，似非美物，百大贵之格，多存七煞」——七煞不是凶神吗，为什么书上反说大贵之格多存七煞？",
+    "expected": "激活 bazi-ziping-pian-guan-shang-guan：用 R1 承认煞非美物，用 R2 说明「控制得宜，煞为我用」，指出关键在于怎么制煞而不在有没有煞；给出处（三十九·論偏官）。"
+  },
+  {
+    "id": "should-2",
+    "type": "should_trigger",
+    "prompt": "书上说「煞用食制，不要露财透印」，这句话凭什么条件成立？",
+    "expected": "激活 bazi-ziping-pian-guan-shang-guan：用 R3 给出「煞旺食强而身健」三条件，用 R4 说明财能转食生煞、印能去食护煞，故财印一现便破食制；给出处（三十九·論偏官）。"
+  },
+  {
+    "id": "should-3",
+    "type": "should_trigger",
+    "prompt": "「有煞而杂官者，或去官，或去煞，取清则贵」是什么意思，凭什么定去留？",
+    "expected": "激活 bazi-ziping-pian-guan-shang-guan：用 R6 说明官煞混杂要取清，并按同篇「各从其重」——月令偏官则煞为用而官非用；给出处（三十九·論偏官）。"
+  },
+  {
+    "id": "should-4",
+    "type": "should_trigger",
+    "prompt": "「伤官虽非吉神，实为秀气」怎么读，为什么文人学士多从伤官格出？",
+    "expected": "激活 bazi-ziping-pian-guan-shang-guan：用 R9 说明伤官虽非吉神实为秀气，并提同篇「变化尤多、不可执」；给出处（四十一·論傷官）。"
+  },
+  {
+    "id": "should-not-1",
+    "type": "should_not_trigger",
+    "prompt": "帮我看看我的正官格和财星怎么取用？",
+    "expected": "不激活 bazi-ziping-pian-guan-shang-guan（正官与财转 bazi-ziping-zheng-guan-cai）。"
+  },
+  {
+    "id": "should-not-2",
+    "type": "should_not_trigger",
+    "prompt": "帮我看看这八字今年运势怎么样、能不能翻身？",
+    "expected": "不激活：属批流年大运、断终身，本族不接；先走 bazi-hub 硬闸门，缺柱不排。"
+  },
+  {
+    "id": "should-not-3",
+    "type": "should_not_trigger",
+    "prompt": "「伤官伤尽」这个格到底成不成，书上认不认？",
+    "expected": "不激活本篇（伤官伤尽属篇47论杂格一层 → 转 bazi-ziping-yang-ren-za-ge；若问的是三命通會那一路格名，转 bazi-sanming-*）。"
+  },
+  {
+    "id": "edge-1",
+    "type": "boundary",
+    "prompt": "我就知道是春天生的，具体月份忘了，能看出是煞用食制还是煞用印吗？",
+    "expected": "边界：月令是取用第一道门，只到季段不能定月支；照实说要补出生月、标明「段内不唯一」，不用占位信息硬排。"
+  },
+  {
+    "id": "edge-2",
+    "type": "boundary",
+    "prompt": "书里说我这是「极为贵格」，是不是我就注定大贵？",
+    "expected": "边界：说明「大都极等之贵」「极为贵格」是原书的评价语，属书里的说法，不落到具体人身上，也不给贵贱、寿夭判断；只讲书里取用条件满足到哪一步。"
+  }
+]

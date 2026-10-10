@@ -1,0 +1,236 @@
+{
+ "mapping": {
+  "C01": {
+   "skill": "kanyu-zangshu-cheng-shengqi",
+   "src": "answers/kanyu-zangshu-cheng-shengqi__2.md",
+   "group": "kanyu"
+  },
+  "C02": {
+   "skill": "kanyu-dao-zhang-shi-er-fa",
+   "src": "answers/kanyu-dao-zhang-shi-er-fa__2.md",
+   "group": "kanyu"
+  },
+  "C03": {
+   "skill": "kanyu-xieji-bian-e",
+   "src": "answers/kanyu-xieji-bian-e__1.md",
+   "group": "kanyu"
+  },
+  "C04": {
+   "skill": "jung-persona-self",
+   "src": "answers2/jung-persona-self__1.md",
+   "group": "control"
+  },
+  "C05": {
+   "skill": "jung-persona-self",
+   "src": "answers2/jung-persona-self__2.md",
+   "group": "control"
+  },
+  "C06": {
+   "skill": "kanyu-hanlong-jiu-xing",
+   "src": "answers/kanyu-hanlong-jiu-xing__1.md",
+   "group": "kanyu"
+  },
+  "C07": {
+   "skill": "kanyu-zangshu-xing-shi-pin-lei",
+   "src": "answers/kanyu-zangshu-xing-shi-pin-lei__1.md",
+   "group": "kanyu"
+  },
+  "C08": {
+   "skill": "ptolemy-nativity-framework",
+   "src": "answers2/ptolemy-nativity-framework__2.md",
+   "group": "control"
+  },
+  "C09": {
+   "skill": "kanyu-xieji-yi-ji",
+   "src": "answers/kanyu-xieji-yi-ji__1.md",
+   "group": "kanyu"
+  },
+  "C10": {
+   "skill": "jung-dream-work",
+   "src": "answers2/jung-dream-work__2.md",
+   "group": "control"
+  },
+  "C11": {
+   "skill": "kanyu-zangshu-xing-shi-pin-lei",
+   "src": "answers/kanyu-zangshu-xing-shi-pin-lei__2.md",
+   "group": "kanyu"
+  },
+  "C12": {
+   "skill": "jung-psychological-types",
+   "src": "answers2/jung-psychological-types__2.md",
+   "group": "control"
+  },
+  "C13": {
+   "skill": "yin-yang-balance",
+   "src": "answers2/yin-yang-balance__2.md",
+   "group": "control"
+  },
+  "C14": {
+   "skill": "kanyu-zangshu-cheng-shengqi",
+   "src": "answers/kanyu-zangshu-cheng-shengqi__1.md",
+   "group": "kanyu"
+  },
+  "C15": {
+   "skill": "jung-complex-archetype",
+   "src": "answers2/jung-complex-archetype__1.md",
+   "group": "control"
+  },
+  "C16": {
+   "skill": "kanyu-yilong-xia",
+   "src": "answers/kanyu-yilong-xia__1.md",
+   "group": "kanyu"
+  },
+  "C17": {
+   "skill": "kanyu-zangshu-zhi-long-bian",
+   "src": "answers/kanyu-zangshu-zhi-long-bian__1.md",
+   "group": "kanyu"
+  },
+  "C18": {
+   "skill": "ptolemy-nativity-framework",
+   "src": "answers2/ptolemy-nativity-framework__1.md",
+   "group": "control"
+  },
+  "C19": {
+   "skill": "jung-complex-archetype",
+   "src": "answers2/jung-complex-archetype__2.md",
+   "group": "control"
+  },
+  "C20": {
+   "skill": "kanyu-zangshu-zhi-long-bian",
+   "src": "answers/kanyu-zangshu-zhi-long-bian__2.md",
+   "group": "kanyu"
+  },
+  "C21": {
+   "skill": "jung-shadow-evil",
+   "src": "answers2/jung-shadow-evil__1.md",
+   "group": "control"
+  },
+  "C22": {
+   "skill": "yin-yang-balance",
+   "src": "answers2/yin-yang-balance__1.md",
+   "group": "control"
+  },
+  "C23": {
+   "skill": "kanyu-hub",
+   "src": "answers/kanyu-hub__1.md",
+   "group": "kanyu"
+  },
+  "C24": {
+   "skill": "cross-system-hub",
+   "src": "answers/cross-system-hub__2.md",
+   "group": "control"
+  },
+  "C25": {
+   "skill": "kanyu-yilong-shi-wen",
+   "src": "answers/kanyu-yilong-shi-wen__1.md",
+   "group": "kanyu"
+  },
+  "C26": {
+   "skill": "jung-shadow-evil",
+   "src": "answers2/jung-shadow-evil__2.md",
+   "group": "control"
+  },
+  "C27": {
+   "skill": "zhouyi",
+   "src": "answers/zhouyi__2.md",
+   "group": "control"
+  },
+  "C28": {
+   "skill": "jung-dream-work",
+   "src": "answers2/jung-dream-work__1.md",
+   "group": "control"
+  },
+  "C29": {
+   "skill": "kanyu-xieji-yi-ji",
+   "src": "answers/kanyu-xieji-yi-ji__2.md",
+   "group": "kanyu"
+  },
+  "C30": {
+   "skill": "kanyu-xieji-yong-shi",
+   "src": "answers/kanyu-xieji-yong-shi__1.md",
+   "group": "kanyu"
+  },
+  "C31": {
+   "skill": "cross-system-hub",
+   "src": "answers/cross-system-hub__1.md",
+   "group": "control"
+  },
+  "C32": {
+   "skill": "attach-anxious-style",
+   "src": "answers2/attach-anxious-style__2.md",
+   "group": "control"
+  },
+  "C33": {
+   "skill": "kanyu-hub",
+   "src": "answers/kanyu-hub__2.md",
+   "group": "kanyu"
+  },
+  "C34": {
+   "skill": "zhouyi",
+   "src": "answers/zhouyi__1.md",
+   "group": "control"
+  },
+  "C35": {
+   "skill": "jung-psychological-types",
+   "src": "answers2/jung-psychological-types__1.md",
+   "group": "control"
+  },
+  "C36": {
+   "skill": "kanyu-zangshu-cang-feng-de-shui",
+   "src": "answers/kanyu-zangshu-cang-feng-de-shui__2.md",
+   "group": "kanyu"
+  },
+  "C37": {
+   "skill": "kanyu-xieji-yong-shi",
+   "src": "answers/kanyu-xieji-yong-shi__2.md",
+   "group": "kanyu"
+  },
+  "C38": {
+   "skill": "kanyu-hanlong-jiu-xing",
+   "src": "answers/kanyu-hanlong-jiu-xing__2.md",
+   "group": "kanyu"
+  },
+  "C39": {
+   "skill": "kanyu-yilong-xia",
+   "src": "answers/kanyu-yilong-xia__2.md",
+   "group": "kanyu"
+  },
+  "C40": {
+   "skill": "kanyu-xieji-bian-e",
+   "src": "answers/kanyu-xieji-bian-e__2.md",
+   "group": "kanyu"
+  },
+  "C41": {
+   "skill": "kanyu-yilong-shi-wen",
+   "src": "answers/kanyu-yilong-shi-wen__2.md",
+   "group": "kanyu"
+  },
+  "C42": {
+   "skill": "attach-anxious-style",
+   "src": "answers2/attach-anxious-style__1.md",
+   "group": "control"
+  },
+  "C43": {
+   "skill": "kanyu-dao-zhang-shi-er-fa",
+   "src": "answers/kanyu-dao-zhang-shi-er-fa__1.md",
+   "group": "kanyu"
+  },
+  "C44": {
+   "skill": "kanyu-zangshu-cang-feng-de-shui",
+   "src": "answers/kanyu-zangshu-cang-feng-de-shui__1.md",
+   "group": "kanyu"
+  }
+ },
+ "published": {
+  "cross-system-hub": 8.75,
+  "zhouyi": 7.92,
+  "ptolemy-nativity-framework": 7.75,
+  "jung-complex-archetype": 7.92,
+  "attach-anxious-style": 8.08,
+  "jung-dream-work": 8.17,
+  "yin-yang-balance": 8.18,
+  "jung-persona-self": 8.28,
+  "jung-psychological-types": 8.42,
+  "jung-shadow-evil": 8.5
+ }
+}

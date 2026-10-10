@@ -1,0 +1,56 @@
+[
+  {
+    "id": "should-1",
+    "type": "should_trigger",
+    "prompt": "「財官印食，四吉神也，然用之當不當，亦能破格」——財官印食不是吉神吗，怎么还会破格？",
+    "expected": "激活 bazi-ziping-ji-xiong-shen：用 R1 说吉神用之不当亦能破格，再用 R2「吉凶喜忌，全在是否合于需要，不因名称而有分别也」指出吉凶不挂在名字上；给出处（篇十八·論四吉神能破格）。"
+  },
+  {
+    "id": "should-2",
+    "type": "should_trigger",
+    "prompt": "书上说「煞傷梟刃，四凶神也，然施之得宜，亦能成格」，凶神凭什么能成格？",
+    "expected": "激活 bazi-ziping-ji-xiong-shen：用 R3 拆印绶根轻透煞、财逢比劫取伤、食神带煞得枭、财逢七煞得刃四类，用 R4「施之得宜，可以戡乱」收口；给出处（篇十九·論四凶神能成格）。"
+  },
+  {
+    "id": "should-3",
+    "type": "should_trigger",
+    "prompt": "同样是正官见财伤并透，为什么先丁后戊和先戊后丁会不一样？",
+    "expected": "激活 bazi-ziping-ji-xiong-shen：用 R5「同此生克，而先后之间，遂分吉凶」与 R6 正官财伤并透之例，说明财先则解伤、伤先则破格；给出处（篇二十·論生克先後分吉凶）。"
+  },
+  {
+    "id": "should-4",
+    "type": "should_trigger",
+    "prompt": "看格局不是要看神煞吗，孤辰、天德、贵人这些到底算不算数？",
+    "expected": "激活 bazi-ziping-ji-xiong-shen：用 R7「星辰好歹，既不能为生克之用，又何以操成败之权」与 R8 说明本书星辰不参成败；并按 I 节第 6 条把《三命通會》卷十·巫咸撮要的神煞断语并陈、各标出处，不选边。"
+  },
+  {
+    "id": "should-not-1",
+    "type": "should_not_trigger",
+    "prompt": "用神到底怎么取，成败救应是怎么一回事？",
+    "expected": "不激活 bazi-ziping-ji-xiong-shen（用神总纲与成败救应转 bazi-ziping-yong-shen-zong-gang）。"
+  },
+  {
+    "id": "should-not-2",
+    "type": "should_not_trigger",
+    "prompt": "我这八字今年能不能升职、明年财运好不好，帮我断一下？",
+    "expected": "不激活：属于批流年大运、断终身吉凶，本族不接；先走 bazi-hub 硬闸门，缺柱不排。"
+  },
+  {
+    "id": "should-not-3",
+    "type": "should_not_trigger",
+    "prompt": "我最近运气挺差的，是不是该做点什么。",
+    "expected": "不激活：只说「运气差」是泛化词，没有显式提到八字／四柱／格局这类词，硬闸门不过，整行不显示。"
+  },
+  {
+    "id": "edge-1",
+    "type": "boundary",
+    "prompt": "外格是不是什么时候都能用，我这个盘能不能按井欄、朝陽之类来读？",
+    "expected": "边界：按 R9「盖因月令无用，权而用之」与 R10「若月令自有用神，岂可另寻外格」；先问月令有没有可取之神，再谈外格，且说明「用神被破」不等于「月令无用」，不替用户拍板。"
+  },
+  {
+    "id": "edge-2",
+    "type": "boundary",
+    "prompt": "「即使満盤天德貴人，何以為功」是不是说带贵人的人反而不好？",
+    "expected": "边界：说明这是篇二十一讲「星辰不参成败」的话，意思是格局破了、满盘贵人也救不了，不是说贵人本身不好，也不是对某个人的判决；不落到具体人身上。"
+  }
+]

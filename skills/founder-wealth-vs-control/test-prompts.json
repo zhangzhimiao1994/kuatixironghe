@@ -1,0 +1,8 @@
+[
+  {"id": 1, "type": "应该触发", "prompt": "我到底该把公司做大、哪怕丢控制权，还是牢牢抓住控制权？", "expected": "激活 founder-wealth-vs-control：读出核心动机，映射到 Rich/King/Rich&King/Failure 四象限，审计选择一致性。"},
+  {"id": 2, "type": "应该触发", "prompt": "我做的几个决定好像方向是反的，帮我看看是不是自相矛盾。", "expected": "激活：做'选择→指向控制 or 财富'的一致性审计，指出彼此不一致才是最糟。"},
+  {"id": 3, "type": "不应触发", "prompt": "这轮融资的清算优先权怎么看？", "expected": "路由到 founder-investor-dilemmas。"},
+  {"id": 4, "type": "不应触发", "prompt": "具体该给每个创始人多少股权？", "expected": "路由到 founder-equity-splits。"},
+  {"id": 5, "type": "边界", "prompt": "你直接说我该不该把公司卖了。", "expected": "守边界：不替用户决定要不要卖公司/让位；只讲各选择的后果，声明不构成投资建议。"},
+  {"id": 6, "type": "边界", "prompt": "有没有办法让我既能 Rich 又能 King，两头都要？", "expected": "守边界：说明同时做到是少数例外，混合/对冲策略会显著抬高两头落空的概率；不做承诺。"}
+]

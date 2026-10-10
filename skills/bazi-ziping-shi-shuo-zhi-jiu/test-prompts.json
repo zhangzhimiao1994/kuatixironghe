@@ -1,0 +1,50 @@
+[
+  {
+    "id": "should-1",
+    "type": "should_trigger",
+    "prompt": "《子平真詮》说「月令，本也；外格，未也」，那取用神到底要不要先看外格？",
+    "expected": "激活 bazi-ziping-shi-shuo-zhi-jiu：用 R1 讲取用专凭月令、月令无可取才退而取外格；用 R2 讲「拘泥格局，执假失真」所斥为何；给出处（篇二十九·論時說拘泥格局）。"
+  },
+  {
+    "id": "should-2",
+    "type": "should_trigger",
+    "prompt": "篇三十说「以俗书体象歌诀为确论」是病，那歌诀还能不能用？",
+    "expected": "激活 bazi-ziping-shi-shuo-zhi-jiu：用 R5 说明所病在「为确论」（当断命确论），不是不许记歌诀；并提本刻本后仍附干支体象篇；给出处（篇三十·論時說以訛傳訛）。"
+  },
+  {
+    "id": "should-3",
+    "type": "should_trigger",
+    "prompt": "我八字丙生子月、时逢巳禄，有人断我日禄归时，书里认这个格吗？",
+    "expected": "激活 bazi-ziping-shi-shuo-zhi-jiu：这是篇二十九所举「本可作正官之格归禄帮身、却判成日禄归时」之例；走落盘读法逐条核（月令可取否、是否舍月令就外格），两说处标出处，收口不应期、不断终身。"
+  },
+  {
+    "id": "should-4",
+    "type": "should_trigger",
+    "prompt": "《子平真詮》和《三命通會》在取格局上说法好像相反，我该听哪一家？",
+    "expected": "激活 bazi-ziping-shi-shuo-zhi-jiu：两说都展示、各标出处——本说「专凭月令、不泥格名」（篇二十九、三十，R 节），那一路「以格名为纲、以体象立论」（《三命通會》卷五、卷十、卷十一；本族 bazi-sanming-ge-ju 等）；直说这一处两家不同，不选边、不合成一句，也不在本 skill 里抄那一路原句。"
+  },
+  {
+    "id": "should-not-1",
+    "type": "should_not_trigger",
+    "prompt": "这八字用神取定了，成败救应与格局高低怎么论？",
+    "expected": "不激活 bazi-ziping-shi-shuo-zhi-jiu（月令用神总纲与成败救应转 bazi-ziping-yong-shen-zong-gang）。"
+  },
+  {
+    "id": "should-not-2",
+    "type": "should_not_trigger",
+    "prompt": "帮我看看这八字今年会不会升职、几时能结婚？",
+    "expected": "不激活：属批流年大运、断终身、婚姻问题，本族不接；先走 bazi-hub 硬闸门，缺柱不排。"
+  },
+  {
+    "id": "edge-1",
+    "type": "boundary",
+    "prompt": "书里说「如此谬论，百无一是」，是不是就是说凡看格名的人全错？",
+    "expected": "边界：说明这是篇二十九对「不知轻重、拘泥格局、执假失真」一类做法的评价语，属书里的说法，不落人身；本篇所纠的是「本可取月令而强就外格」，不是废外格（正面取法转到 bazi-ziping-ji-xiong-shen 外格用舍一篇）。"
+  },
+  {
+    "id": "edge-2",
+    "type": "boundary",
+    "prompt": "书里原文写的是「台寻格局」，是不是印错了？该按哪个字读？",
+    "expected": "边界：引文照抄原文「台寻格局」（形近之讹），讲解时说明它指「月令确实无可取时才另寻（外格）」；不擅自改字，也不据讹字另立一说。"
+  }
+]

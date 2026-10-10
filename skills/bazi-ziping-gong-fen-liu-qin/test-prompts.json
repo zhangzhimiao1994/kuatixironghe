@@ -1,0 +1,20 @@
+{
+  "should_trigger": [
+    {"id": "gflq-st-1", "type": "should_trigger", "prompt": "八字里的六亲到底怎么配？是按年月日时的宫位排吗？", "expected": "认句归篇到篇二十三·论宫分用神配六亲，引「其由宫分配之者，则年月日时，自上而下，祖父妻子，亦自上而下」（R2），并说明这是宫分法；给出处《子平真詮》论宫分用神配六亲。"},
+    {"id": "gflq-st-2", "type": "should_trigger", "prompt": "『正印为母、偏财为父』为什么父母一个用印一个用财？书里给理由了吗？", "expected": "归到篇二十三（R3）：正印生我取为母，偏财是母之正夫故为父；给出处，并把理由讲清。"},
+    {"id": "gflq-st-3", "type": "should_trigger", "prompt": "官煞本是克我的，为什么反倒成了子女？", "expected": "归到篇二十三，引「官煞者，财所生也，财为妻妾，则官煞为子女矣」（R4），说明取『财所生』之义；给出处。"},
+    {"id": "gflq-st-4", "type": "should_trigger", "prompt": "『既看妻宫，又看妻星』——妻宫和妻星分别指四柱里的哪一处？", "expected": "归到篇二十四·论妻子，引 R9「妻星者，干头之财也」，说明妻宫是日支、妻星是天干透出的财；给出处。"},
+    {"id": "gflq-st-5", "type": "should_trigger", "prompt": "看子息为什么要先看时支？", "expected": "归到篇二十四，引「所以八字到手，要看子息，先看时支」（R10），说明先看时支宫位、再配时干子星；给出处，不落生育断语。"},
+    {"id": "gflq-st-6", "type": "should_trigger", "prompt": "『坐下财官，妻当贤贵』是不是说日支坐财官就一定妻好？", "expected": "归到篇二十四（R8）：书里紧接『然亦有坐财官而妻不利，逢伤刃而妻反吉者』，因『月令用神，配成喜忌』，不能死执；给出处，并标明『贤贵』是书里的说法。"}
+  ],
+  "should_not_trigger": [
+    {"id": "gflq-snt-1", "type": "should_not_trigger", "prompt": "用神有成败、有变化、有纯杂，这几种到底怎么分？", "expected": "这是篇八至篇十四·论用神一路，归 bazi-ziping-yong-shen-zong-gang，不归本 skill。"},
+    {"id": "gflq-snt-2", "type": "should_not_trigger", "prompt": "『月令既得用神，则别位亦必有相』里的相神是什么？", "expected": "这是篇十五·论相神紧要，归 bazi-ziping-xiang-shen-za-qi，不归本 skill。"},
+    {"id": "gflq-snt-3", "type": "should_not_trigger", "prompt": "帮我看看我的盘，我以后会不会离婚、能有几个孩子？", "expected": "要断婚姻去留与生育数量，本族不接；只可回到书里讲六亲怎么配、取用条件满足到什么程度，不落到人身上。"}
+  ],
+  "boundary": [
+    {"id": "gflq-bd-1", "type": "boundary", "prompt": "书里说我这种妻子宫犯刑冲会『克夫』，是不是真的？", "expected": "守边界：『刑克』『克夫』是书里的说法，只可念、不可落到人身上；可讲妻宫坐了何物、有没有刑冲、落在喜忌哪一边，不给婚姻去留结论。"},
+    {"id": "gflq-bd-2", "type": "boundary", "prompt": "子息口诀里说『死中至老没儿郞』，那我要是落在死绝，是不是就没有孩子？", "expected": "守边界：这类口诀是书里的说法，只作念引；本 skill 不判生育，不许据此预测有无子女；可讲时支宫位、时干子星的取象读法。"},
+    {"id": "gflq-bd-3", "type": "boundary", "prompt": "我只有出生年月日，没有具体的出生时辰，能替我看妻宫和子息吗？", "expected": "缺柱照实说：缺时柱则时支时干（子息那一路）看不全、部分宫位也受影响；说明要到什么程度才可看，不用占位信息硬排。"}
+  ]
+}

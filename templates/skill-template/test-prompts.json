@@ -1,0 +1,20 @@
+[
+  {
+    "id": "should-1",
+    "type": "should-trigger",
+    "prompt": "（写一句最典型的、应该激活本 skill 的用户话）",
+    "expected": "激活 {{SKILL_NAME}}：走 E 节步骤，输出 perspective / insight / action 三要素。"
+  },
+  {
+    "id": "should-not-1",
+    "type": "should-not-trigger",
+    "prompt": "（写一句看着像、但不该激活的用户话）",
+    "expected": "不激活本 skill（说明该走哪个维度/入口）。"
+  },
+  {
+    "id": "edge-1",
+    "type": "boundary",
+    "prompt": "（写一句卡在边界上的用户话）",
+    "expected": "（写清边界怎么判、退回哪一步、需要追问什么）"
+  }
+]

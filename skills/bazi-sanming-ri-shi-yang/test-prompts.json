@@ -1,0 +1,44 @@
+[
+  {
+    "id": "should-1",
+    "type": "should-trigger",
+    "prompt": "《三命通會》里『六甲日生甲子時 敗中印綬官生至月通木氣不尋常 反此而言虚名利』这句该怎么读？",
+    "expected": "激活 bazi-sanming-ri-shi-yang：走 E 节步骤，先给 R1／R2 的总纲，再对号抄 R3 的歌诀取象、补散文条件，输出 term_definition / mechanism_reading / quote_attribution。"
+  },
+  {
+    "id": "should-2",
+    "type": "should-trigger",
+    "prompt": "阳干日主（甲丙戊庚壬）落在某个时辰上，书上给什么断语？『以下所忌月分與時同斷』是什么意思？",
+    "expected": "激活本 skill：区分卷八（甲丙戊）与卷九（庚壬），逐格取象并给月忌与时忌并论的读法。"
+  },
+  {
+    "id": "should-3",
+    "type": "should-trigger",
+    "prompt": "我的四柱是甲辰 丙寅 甲子 乙丑，按《三命通會》日時斷，我这盘怎么看？",
+    "expected": "激活 bazi-sanming-ri-shi-yang 并走落盘读法：①取盘上的料（日主甲、時支子，属卷八·六甲日甲子時斷）②逐条核 R1（以日時為主、年月附之）→ R3（甲子時歌訣取象）→ R2（月忌与时忌同断）→ R8（年月通融）③给一句「按书里这一类读，偏 X」＋出处（卷八·六甲日甲子時斷）④收口声明不应期、不断终身、不落寿夭疾病生育、不替人决定。"
+  },
+  {
+    "id": "should-not-1",
+    "type": "should-not-trigger",
+    "prompt": "『六乙日生時丁丑』这句在《三命通會》里怎么解？",
+    "expected": "不激活本 skill：乙属阴干，转 bazi-sanming-ri-shi-yin。"
+  },
+  {
+    "id": "should-not-2",
+    "type": "should-not-trigger",
+    "prompt": "《三命通會》论女命为什么先看夫星再看子星？",
+    "expected": "不激活本 skill：转 bazi-sanming-nu-ming（女命与夫星）。"
+  },
+  {
+    "id": "edge-1",
+    "type": "boundary",
+    "prompt": "我甲日寅时生，按日時斷看是不是主贵？",
+    "expected": "边界：取象照讲（对应卷八的甲日格），但不落人身、不判贵贱；说明本 skill 只在书内取象，若要排盘判定需走 bazi-hub 硬闸门并补齐四柱。"
+  },
+  {
+    "id": "edge-2",
+    "type": "boundary",
+    "prompt": "『六庚日生時丙子』到底取的是哪一格，能不能拿来断我的寿？",
+    "expected": "边界：对号取象（R6）与条件讲清，但『壽難長』只是书里的说法；明确拒绝寿命预测，收口在取象。"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "should-1",
+    "type": "should-trigger",
+    "prompt": "《窮通寶鑑》开头那段「五行总论」，五行者本乎天地之间而不穷者也，故谓之行——这句到底在说什么？",
+    "expected": "激活 bazi-qiongtong-wu-xing：走 E 节步骤，给 reading / mechanism / takeaway，R 引到（《窮通寶鑑》五行總論）。"
+  },
+  {
+    "id": "should-2",
+    "type": "should-trigger",
+    "prompt": "书上说「其相生也所以相维，其相克也所以相制，此之谓有伦」，相克为什么也算有伦？",
+    "expected": "激活 bazi-qiongtong-wu-xing：回 R3 讲相生相制合为有伦，不把克讲成凶。"
+  },
+  {
+    "id": "should-3",
+    "type": "should-trigger",
+    "prompt": "「五行皆赖土」和「水一火二木三金四土五」这两句怎么读？",
+    "expected": "激活 bazi-qiongtong-wu-xing：回 R7、R9，说明记号不作吉凶结论。"
+  },
+  {
+    "id": "should-not-1",
+    "type": "should-not-trigger",
+    "prompt": "甲木生在正月，书上说要取什么？",
+    "expected": "不激活本 skill；转 bazi-qiongtong-mu（论甲木·正月甲木）。"
+  },
+  {
+    "id": "should-not-2",
+    "type": "should-not-trigger",
+    "prompt": "帮我把这个人的四柱排出来，看看十神。",
+    "expected": "不激活本 skill；转 bazi-hub 或排盘／十神类 skill。"
+  },
+  {
+    "id": "should-not-3",
+    "type": "should-not-trigger",
+    "prompt": "我脾胃不好，是不是五行里土太弱了？",
+    "expected": "不激活本 skill；脏腑五行属另一维度，本 skill 只据原书总论。"
+  },
+  {
+    "id": "boundary-1",
+    "type": "boundary",
+    "prompt": "五行总论里的「太过／不及」是不是就能判断一个人命好命坏？",
+    "expected": "边界：总论只给尺子；断语在逐月各节且是书里的说法，不下对人的判决，最多说明取用方向。"
+  },
+  {
+    "id": "boundary-2",
+    "type": "boundary",
+    "prompt": "五行的数能不能拿来打分看旺衰？",
+    "expected": "边界：R9 是原书给五行的记号，不是可计算的分数；不引入「打分／指数」。"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "should-trigger-1",
+    "type": "should-trigger",
+    "prompt": "用弗洛伊德全面分析一下我这一年的状态——又焦虑、又反复陷入同一种关系、还老自我否定，一两句话说不清。",
+    "expected": "激活 freud-complete：先 🔴CHECKPOINT（这个问题需要做 N 个方面的分析，全量覆盖还是聚焦 1-2 个最紧迫的方面？）；全量则按执行步骤逐项展开（识别神经症结构→三角拆解→追溯发展线索→物表象建词表象→CHECKPOINT→最小可行方案），按 TL;DR 只给相关章节，不 12 章全输出。"
+  },
+  {
+    "id": "should-trigger-2",
+    "type": "should-trigger",
+    "prompt": "我这情况特别复杂：总是反复梦到同一个场景、白天又控制不住地洗手检查、还老觉得我不够好——你能不能用弗洛伊德把所有相关理论过一遍，给我一个完整分析？",
+    "expected": "激活 freud-complete（跨 3+ 领域 + 明确要求全面分析）：先 CHECKPOINT 确认全量；执行步骤中开头标注“这是解释框架，不是生物学事实”；自杀/创伤/解离紧急信号出现即停止给热线。"
+  },
+  {
+    "id": "should-not-trigger-1",
+    "type": "should-not-trigger",
+    "prompt": "我就一个问题：我老是忘记给人回消息、偶尔说错话，这该用哪个弗洛伊德模型看？",
+    "expected": "不激活 freud-complete——简单的、可被单一子 skill 覆盖的问题 → 按“不触发”改路由到 freud-hub → freud-dreams-parapraxes（失误行为分析）。"
+  },
+  {
+    "id": "boundary-1",
+    "type": "boundary",
+    "prompt": "用弗洛伊德全面分析我吧，不过我最近最困扰的其实就是一件事——我明知道该分手却离不开。",
+    "expected": "边界——用户嘴上要全量但只有 1 件紧迫事：CHECKPOINT 阶段应降级到聚焦 1-2 个方面 → 改路由 freud-hub 用对应子 skill，不强行走全量（反例：不要 12 章全输出 / 不要强行全量）。"
+  }
+]

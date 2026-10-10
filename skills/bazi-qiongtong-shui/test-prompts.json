@@ -1,0 +1,44 @@
+[
+  {
+    "id": "should-1",
+    "type": "should_trigger",
+    "prompt": "壬水日主生在申月，书上说专用戊土、次取丁火佐戊制庚，我戊土藏在支里，这样还算数吗？",
+    "expected": "激活 bazi-qiongtong-shui：确认日主壬水、月令申月，照《窮通寶鑑》論壬水·七月壬水给出「专用戊土，次取丁火佐戊制庚」，再按透藏轻重读；给出处与取用条件。"
+  },
+  {
+    "id": "should-2",
+    "type": "should_trigger",
+    "prompt": "癸水日主生在子月，「专用丙火解冻，又要辛金滋扶」，到底先取谁？",
+    "expected": "激活 bazi-qiongtong-shui：用 R26 说明十一月癸水以丙火解冻为专、辛金滋扶为辅，并给出《窮通寶鑑》論癸水·十一月癸水的出处与取用条件。"
+  },
+  {
+    "id": "should-3",
+    "type": "should_trigger",
+    "prompt": "「水冷金寒爱丙丁」这句是《窮通寶鑑》里哪一段的，讲什么？",
+    "expected": "激活 bazi-qiongtong-shui：指出它是《窮通寶鑑》論壬水·十二月壬水里的口诀，讲冬水宜丙丁暖之；标明是书里的说法。"
+  },
+  {
+    "id": "should-not-1",
+    "type": "should_not_trigger",
+    "prompt": "辛金日主生在八月，书上说专用壬水淘洗火，我该取谁？",
+    "expected": "不激活 bazi-qiongtong-shui（日主是辛金，转 bazi-qiongtong-jin 篇）。"
+  },
+  {
+    "id": "should-not-2",
+    "type": "should_not_trigger",
+    "prompt": "帮我看看我这八字今年顺不顺、什么时候有桃花？",
+    "expected": "不激活本 skill：属于批流年大运、断终身、婚姻判断，本族不接；先走 bazi-hub 硬闸门，缺柱不排。"
+  },
+  {
+    "id": "edge-1",
+    "type": "boundary",
+    "prompt": "我癸水日主，生在六月，但记不清是上半月还是下半月，能取用吗？",
+    "expected": "边界：照《窮通寶鑑》論癸水·六月癸水「有上下月之分，下半月庚辛有气，上半月庚辛休囚」，两段并列给出，标明「时段内不唯一」，追问是哪半个月才能收窄。"
+  },
+  {
+    "id": "edge-2",
+    "type": "boundary",
+    "prompt": "书上说癸水在冬月「非贫即夭」，我这盘是不是很危险？",
+    "expected": "边界：说明这类是书里的评价语，只当书里的读法讲，不落到具体人身上，也不给寿命或疾病判断。"
+  }
+]

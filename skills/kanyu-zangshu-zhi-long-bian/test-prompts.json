@@ -1,0 +1,16 @@
+{
+  "should_trigger": [
+    {"prompt": "支垄之辨到底辨什么？为什么书里说它难？", "reason": "用户问本主题的核心与难处。"},
+    {"prompt": "我在一片平原上，没有山，这个到底怎么看？", "reason": "用户问平洋（支）的认法。"},
+    {"prompt": "『地贵平夷，土贵有支』『观支之法，隐隐隆隆』该怎么理解？", "reason": "用户问支的辨认两条经文。"}
+  ],
+  "should_not_trigger": [
+    {"prompt": "风水这个词什么意思，得水藏风哪个更重要？", "reason": "归 kanyu-zangshu-cang-feng-de-shui（藏风得水），不归本 skill。"},
+    {"prompt": "势来形止、千尺为势百尺为形怎么讲？", "reason": "归 kanyu-zangshu-shi-lai-xing-zhi（势来形止），不归本 skill。"},
+    {"prompt": "帮我看看这块地贵不贵、出什么人物。", "reason": "这是贵贱品类判断，归 kanyu-zangshu-xing-shi-pin-lei（形势品类），不归本 skill。"}
+  ],
+  "boundary_cases": [
+    {"prompt": "我这块地看着像支又像垄，你直接告诉我是哪一种。", "reason": "书里自承有似支非支、似垄非垄，且注家多误；只给辨认方向，不硬归一类。"},
+    {"prompt": "平地根本没山，是不是就没有形势可看了？", "reason": "纠正：支有起有终，『土随而起、水随而比』，平地照样有得看。"}
+  ]
+}
