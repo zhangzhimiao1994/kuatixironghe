@@ -1,6 +1,6 @@
 # Cross-System Hub — 跨体系多维分析器
 
-> 16 个维度（观察 12 / 象征 4 / 校准 1）：荣格、弗洛伊德、黄帝内经、周易、毛选、决策框架、成长型思维、依恋、EFT、习惯、深度工作、超预测校准、托勒密星盘、精益创业、创业两难、堪舆择日 —— 一套联动分析框架。维度以 `skills/cross-system-hub/dimensions.registry.md` 为准。
+> 17 个维度（观察 12 / 象征 4 / 校准 1）：荣格、弗洛伊德、黄帝内经、周易、毛选、决策框架、成长型思维、依恋、EFT、习惯、深度工作、超预测校准、精益创业、创业两难、托勒密星盘、堪舆择日、子平八字 —— 一套联动分析框架。维度以 `skills/cross-system-hub/dimensions.registry.md` 为准。
 
 ## 📦 包含体系
 
@@ -9,16 +9,20 @@
 | **荣格（分析心理学）** | 观察 | `skills/jung-*` | 14 |
 | **弗洛伊德（精神分析）** | 观察 | `skills/freud-*` | 15 |
 | **黄帝内经（中医系统论）** | 观察 | H 节归属 | 23 |
-| **周易（变化哲学）** | 象征 | H 节归属 | 13 |
+| **周易（变化哲学）** | 象征 | H 节归属 | 22 |
 | **毛泽东思想（实践论+矛盾论）** | 观察 | H 节归属 | 26 |
 | **决策框架（ProACT 等）** | 观察 | H 节归属 | 6 |
-| **成长型思维（Mindset）** | 观察 | `skills/mindset-*` | 4 |
-| **依恋（Attached）** | 观察 | `skills/attach-*` | 4 |
-| **EFT 情绪聚焦（Hold Me Tight）** | 观察 | `skills/eft-*` | 4 |
-| **习惯（Atomic Habits）** | 观察 | `skills/habit-*` | 4 |
-| **深度工作（Deep Work）** | 观察 | `skills/deepwork-*` | 4 |
-| **超预测校准（Superforecasting）** | 校准 | `skills/forecast-*` | 3 |
-| **托勒密星盘（Tetrabiblos）** | 象征 | `skills/ptolemy-*` | 待接入 |
+| **成长型思维（Mindset）** | 观察 | `skills/mindset-*` | 13 |
+| **依恋（Attached）** | 观察 | `skills/attach-*` | 11 |
+| **EFT 情绪聚焦（Hold Me Tight）** | 观察 | `skills/eft-*` | 11 |
+| **习惯（Atomic Habits）** | 观察 | `skills/habit-*` | 12 |
+| **深度工作（Deep Work）** | 观察 | `skills/deepwork-*` | 12 |
+| **超预测校准（Superforecasting）** | 校准 | `skills/forecast-*` | 11 |
+| **精益创业（The Lean Startup）** | 观察 | `skills/lean-*` | 12 |
+| **创业两难（The Founder's Dilemmas）** | 观察 | `skills/founder-*` | 11 |
+| **托勒密星盘（Tetrabiblos）** | 象征 | `skills/ptolemy-*` | 25 |
+| **堪舆择日** | 象征 | `skills/kanyu-*` | 35 |
+| **子平八字** | 象征 | `skills/bazi-*` | 47 |
 | **跨体系联动 Hub** | — | `skills/cross-system-hub/` | 1 |
 
 > 另有 **2 个元工具**（不是维度）：`zhengliu`（把书蒸馏成 skill）、`darwin-skill`（审计与优化 skill）。它们不占维度行、不参与激活扫描，只用于维护这套包。
@@ -33,6 +37,12 @@ python tools/install_deps.py --install  # 缺什么装什么（清华源 → 阿
 ```
 
 把 `skills/` 下的目录按**你所用的 agent 的 skill 放置约定**放进去即可——不依赖任何特定的 agent、模型、工具或版本。
+
+跑 `skills/darwin-skill/scripts/screenshot.mjs` 需要 Node 依赖（`playwright` 也可以）：
+
+```
+npm i -D playwright-core
+```
 
 ## 🧩 怎么扩展
 
